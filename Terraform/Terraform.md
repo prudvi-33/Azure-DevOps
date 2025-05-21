@@ -1,6 +1,6 @@
 **Errors and Troubleshooting:**:
 
-**🔒 Error 1: Error acquiring the state lock**
+**🔒 Error 1: Error acquiring the state lock**< br / >
 ❗ Error:
 Error: Error acquiring the state lock
 Error message: state blob is already locked
