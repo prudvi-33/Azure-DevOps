@@ -18,6 +18,8 @@ Sets things like region, credentials, etc. <br/>
 To control how Terraform handles resource creation, update, and deletion. <br/>
 
 🔧 Syntax: 
+
+
 ![image](https://github.com/user-attachments/assets/8faf0c33-d130-4314-acc6-2a6b1fe35382) <br/>
 🎯 **Why It's Needed:** <br/>
 To prevent disruptions, accidental deletions, or unwanted updates. <br/>
