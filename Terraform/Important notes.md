@@ -1,4 +1,4 @@
-In **Terraform**, the required_providers block and the provider block are both used to configure and specify providers,
+In **Terraform**, the **required_providers** block and the **provider** block are both used to configure and specify providers,
 but they serve different purposes: <br/>
 
 🔹 **required_providers Block** <br/>
