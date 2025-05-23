@@ -12,6 +12,14 @@ az account set --subscription "subscription-id-or-name" <br/>
         az account list --output table <br/>
 
 4)
- ![image](https://github.com/user-attachments/assets/e718f72b-427c-47ce-942b-2ad987d823cb)
+ ![image](https://github.com/user-attachments/assets/e718f72b-427c-47ce-942b-2ad987d823cb) <br/>
+
+5) ✅ **Get List of Registered Resource Providers**: <br/>
+   📦 **Command to get only registered ones:** <br/>
+        az provider list --query "[?registrationState=='Registered'].{Namespace:namespace}" --output table <br/>
+
+        ![image](https://github.com/user-attachments/assets/326bb7b5-5e9e-41b6-a9ea-46bc633702b2)
+
+
 
         
