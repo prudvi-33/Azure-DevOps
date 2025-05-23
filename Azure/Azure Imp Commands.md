@@ -1,5 +1,5 @@
 1) **Set the New Subscription** <br/>
-        az account set --subscription "<subscription-id-or-name>" <br/>
+az account set --subscription "subscription-id-or-name" <br/>
 
 2) **To see the subscription details** <br/>
         az account show <br/>
