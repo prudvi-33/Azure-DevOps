@@ -4,7 +4,7 @@ az account set --subscription "subscription-id-or-name" <br/>
 2) **To see the subscription details** <br/>
         az account show <br/>
 
-**CMD's to login to Azure** <br/>
+*  **CMD's to login to Azure** <br/>
         az login <br/>
         az login --use-device-code <br/>
 
