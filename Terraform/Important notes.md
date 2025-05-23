@@ -57,6 +57,45 @@ Then: <br/>
 
 ![image](https://github.com/user-attachments/assets/df3774ee-9a49-455f-ad0b-c84d804afac1)
 
+===================================================================================================================
+
+**Variables Constraints:** <br/>
+
+In **Terraform (especially with Azure)**, understanding **map(string)** and **map(object)** is crucial when dealing with complex inputs like **tags**, **resource configurations**, or **dynamically generated blocks.** <br/>
+
+**🔹 What is a map(string)?** <br/>
+A map(string) is a key-value pair where the **key is a string**, and the **value is also a string**.  <br/>
+
+**✅ Why use map(string)?**  <br/>
+For simple string-based inputs like tags, environment-specific values, or name-to-value mappings. <br/>
+Easy to loop over using for_each. <br/>
+
+**Example:** <br/>
+
+![image](https://github.com/user-attachments/assets/0e65b471-a613-4d94-840d-b015562892ab) <br/>
+
+Here, the tags variable is a map of strings. Terraform will expand this into: <br/>
+
+![image](https://github.com/user-attachments/assets/9872ec82-4ff4-4785-a88a-524bca699647) <br/>
+
+**🔹 What is a map(object)?** <br/>
+A map(object) is a more advanced mapping, where each key maps to an object (a group of named attributes with types). <br/>
+
+**✅ Why use map(object)?** <br/>
+When you need to define structured configuration per key. <br/>
+Useful for defining multiple resources dynamically with complex properties. <br/>
+
+🧠 Object = { key1 = type1, key2 = type2 }
+
+![image](https://github.com/user-attachments/assets/5f13b761-7811-48e4-a1da-d3ecf602e281)   <br/>
+
+![image](https://github.com/user-attachments/assets/8efdb7a4-2c0f-4450-b4e8-c1e9037eb49b)  ![image](https://github.com/user-attachments/assets/89c20678-6d51-460e-b182-28ba75d19314)
+
+
+
+
+
+
 
 
 
