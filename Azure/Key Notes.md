@@ -24,7 +24,9 @@ If you try to deploy a resource and the provider isn’t registered for your sub
 
 That’s when you enable/register the provider. <br/>
 
-![image](https://github.com/user-attachments/assets/cd32f2eb-afe0-49c2-869b-561af35e22f6)
+![image](https://github.com/user-attachments/assets/cd32f2eb-afe0-49c2-869b-561af35e22f6) <br/>
+
+You enable a provider (aka register it) when you’re deploying a type of resource for the first time and Azure needs permission to allow it under your subscription. <br/>
 
 
 
