@@ -17,8 +17,9 @@ az account set --subscription "subscription-id-or-name" <br/>
 5) ✅ **Get List of Registered Resource Providers**: <br/>
    📦 **Command to get only registered ones:** <br/>
         az provider list --query "[?registrationState=='Registered'].{Namespace:namespace}" --output table <br/>
+ ![image](https://github.com/user-attachments/assets/1420dea5-9edd-4201-a46f-7e2970f54dab) 
 
-        ![image](https://github.com/user-attachments/assets/326bb7b5-5e9e-41b6-a9ea-46bc633702b2)
+   
 
 
 
