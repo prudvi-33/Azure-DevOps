@@ -37,10 +37,23 @@
 =========================================================================================================================
 
 **Enterprise Application**  <br/>
+
 - An Enterprise App with the same name is automatically created once you register an application. <br/>
 
 ![image](https://github.com/user-attachments/assets/0ced7a18-6c8e-4309-9328-96d9487b465c) <br/>
 
 - The configurations that you have set for your app under App Registrations are referenced by your Enterprise Application. <br/>
 
+📌 **It allows us to configure:** <br/>
+
+- Assigning Users and Groups. <br/>
+- SSO settings. <br/>
+- Conditional Access. <br/>
+- Sign-in logs and monitoring. <br/>
+
+============================================================================================================
+
+**Service Principal** <br/>
+
+A **Service Principal** is the identity instance of an application inside a specific Azure AD tenant. <br/>
 
