@@ -34,3 +34,17 @@ It works by assigning **roles to users, groups, or service principals using Role
 ![image](https://github.com/user-attachments/assets/9f3940df-f7e2-43d7-b097-c80f26589c5f) <br/>
 - Management groups can have **child management groups** or **subscriptions.** <br/>
 - You can apply **Azure Policies** or **RBAC roles** at the **management group level,** and they inherit downward. <br/>
+
+3) **🔹 Azure Subscription** <br/>
+- An **Azure subscription** is a container that holds a **set of Azure resources** and is used to manage billing, access, and resource usage. It is linked to an Azure tenant and enables you to deploy and organize services under one account. <br/>
+-  Every Azure resource lives inside exactly one subscription. <br/>
+- Subscriptions allow environment separation (e.g., Dev vs Prod), cost tracking, and access scoping. <br/>
+
+**✅ Common real-world scenario:** <br/>
+Dev Team works in Dev-Sub <br/>
+Prod Team only gets access to Prod-Sub <br/>
+
+- You can create **multiple subscriptions** inside a tenant or using one Azure account, and there are some limits/Quotas assigned to each subscription. <br/>
+- All the subscriptions are attached to the globally unique ID called Subscription ID <br/>
+- 
+
