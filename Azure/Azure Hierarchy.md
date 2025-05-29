@@ -40,11 +40,35 @@ It works by assigning **roles to users, groups, or service principals using Role
 -  Every Azure resource lives inside exactly one subscription. <br/>
 - Subscriptions allow environment separation (e.g., Dev vs Prod), cost tracking, and access scoping. <br/>
 
-**✅ Common real-world scenario:** <br/>
-Dev Team works in Dev-Sub <br/>
-Prod Team only gets access to Prod-Sub <br/>
+  **✅ Common real-world scenario:** <br/>
+   Dev Team works in Dev-Sub <br/>
+   Prod Team only gets access to Prod-Sub <br/>
 
 - You can create **multiple subscriptions** inside a tenant or using one Azure account, and there are some limits/Quotas assigned to each subscription. <br/>
-- All the subscriptions are attached to the globally unique ID called Subscription ID <br/>
-- 
+- All the subscriptions are attached to the globally unique ID called **Subscription ID** <br/>
+
+4) **🔹 Resource Group** <br/>
+
+- **Resource Groups** are containers within subscriptions that organize related resources. These could include virtual machines, storage accounts, and databases that all belong to a single project or application. <br/>
+- You can apply tags, locks, RBAC roles, and policies at the resource group level. <br/>
+
+![image](https://github.com/user-attachments/assets/8c275a8d-4d32-4236-9ff5-0d3dea4d25f5) <br/>
+
+5) **🔹 Resources** <br/>
+
+- **Resources** are the actual Azure services you use — virtual machines, storage accounts, databases, AKS clusters, etc. <br/>
+
+- **Resources** are created inside **resource groups**, and **therefore inside a subscription**, under a **tenant**. <br/>
+- Each resource has its own settings, pricing, and lifecycle. <br/>
+- Can be managed individually, or through ARM templates / Bicep / Terraform. <br/>
+
+
+**Summary:**
+
+-- In Azure, everything starts with an Azure AD Tenant, which represents the organization's identity. All users and access permissions are managed at the tenant level. <br/>
+
+Next, we have Subscriptions, which are billing and resource containers. Each subscription lives under a tenant and is isolated from others, allowing us to manage environments like Dev, Test, or Prod separately. <br/>
+
+Within a subscription, we use Resource Groups to logically organize related resources, such as everything needed for a web app (VMs, storage, database) <br/>
+
 
