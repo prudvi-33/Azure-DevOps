@@ -1,4 +1,4 @@
-1) When you try access kubernetes private cluster(aks) objects like deployments,statefulsets etc. you will see like <br/>
+1) When you try access kubernetes private cluster(AKS) objects like deployments,statefulsets etc. you will see like <br/>
 
 ![image](https://github.com/user-attachments/assets/f03ff602-f5d2-4e69-85c2-71e85fc2e132)  <br/>
 
