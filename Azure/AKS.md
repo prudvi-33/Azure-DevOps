@@ -6,7 +6,7 @@ In that case, you can access the cluster resources/objects through cmd in ur loc
    1) az aks command invoke --resource-group "rg-doc-ai-studio-dev-01" --name "aks-docaistudio-hc" --command <'kubectl get cm'> <br/>
 
 ===========================================================================================================================
-**Commands To get Roles (Cluster-wide roles and Namespace-specific roles):**  <br/>
+<br/> **Commands To get Roles (Cluster-wide roles and Namespace-specific roles):**  <br/>
 
 ![image](https://github.com/user-attachments/assets/af2d66b7-09ba-434c-bce5-9982f8d72c26)  ![image](https://github.com/user-attachments/assets/c05abb87-5721-4f4a-a8a8-b6c46def8c89)
 <br/>
