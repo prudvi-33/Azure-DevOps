@@ -49,7 +49,7 @@ Now, Assign this role, to a user(Developer) using below command, <br/>
 
 ![image](https://github.com/user-attachments/assets/df2cfdc3-5274-4237-ab44-0840a500c581) <br/>
 
-**az role assignment create --assignee <object-id> --role "AKS Run Command Executor" --scope /subscriptions/e9152dfc-abea-4b1b-8d1d-a5bbb2c1832c/resourceGroups/rg-llmstudio-hc-01/providers/Microsoft.ContainerService/managedClusters/aks-llmstudio-hc-01** <br/>
+**az role assignment create --assignee "object-id/Assignee name" --role "AKS Run Command Executor" --scope /subscriptions/e9152dfc-abea-4b1b-8d1d-a5bbb2c1832c/resourceGroups/rg-llmstudio-hc-01/providers/Microsoft.ContainerService/managedClusters/aks-llmstudio-hc-01** <br/>
 
 ====================================================================================================================
 
