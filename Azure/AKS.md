@@ -34,6 +34,11 @@ Grant kuna.prudviraj@techolution.com: <br/>
 
 ![image](https://github.com/user-attachments/assets/17a58caf-a366-4283-8e2c-101c6a09529b) <br/>
 
+===========================================================================================================
+
+**Command to check networking type for AKS cluster** <br/>
+
+**az aks show -g rg-doc-ai-studio-dev-01 -n aks-docaistudio-hc --query "networkProfile.networkPlugin" -o tsv** <br/>
 
 ========================================================================================================================
 
