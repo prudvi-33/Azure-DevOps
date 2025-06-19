@@ -10,7 +10,7 @@
 
     **SSH into the VM using Azure Cloud shell.** <br/>
 
-**ssh <your-vm-username>@<your-vm-public-ip-or-dns-name>**  <br/>
+**ssh "your-vm-username"@"your-vm-public-ip-or-dns-name"**  <br/>
 U will see like: <br/>
 
 ![image](https://github.com/user-attachments/assets/da062c75-1412-4086-8d47-6e6308418692) <br/>
