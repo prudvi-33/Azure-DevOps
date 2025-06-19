@@ -19,3 +19,6 @@ This is a service totally managed by microsoft and it's cleared on every executi
 ➤ This is a service that you can to setup and manage by yourself. This can be custom Virtual machine on Azure or on-premise machine inside ur infrastructure. <br/>
 ➤ In a self hosted agent, you can install all the software you need for ur builds, and this is persisted on every pipeline execution. <br/>
 ➤ A self-hosted agent can be Windows, Linux, Mac OS or in a Docker container. <br/>
+
+**Prerequisites:** <br/>
+
