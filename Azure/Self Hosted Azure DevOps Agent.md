@@ -70,8 +70,37 @@ and **Copy the url** based on which OS the agent needs to be downloaded. <br/>
       wget https://download.agent.dev.azure.com/agent/4.258.1/vsts-agent-linux-x64-4.258.1.tar.gz and then enter <br/>
 It will download the agent. <br/>
 
-**Step #3** - Configure the Agent
-tar zxvf vsts-agent-linux-x64-4.258.1.tar.gz <br/>
+**Step #3** - Configure the Agent. <br/>
+     tar zxvf vsts-agent-linux-x64-4.258.1.tar.gz <br/>
+
+
+
+and then List the files in the directory after extracting. <br/>
+     ls -al <br/>
+You should see like.. <br/>
+
+![image](https://github.com/user-attachments/assets/a7705875-cd42-4e8b-a74e-f3dc4c52764c) <br/>
+
+**Step #4:** Run the below command: <br/>
+     ./config.sh  <br/>
+
+     ![AD01](https://github.com/user-attachments/assets/ffe3acf9-b730-4bc0-943e-4888e6ec5958) <br/>
+
+Accept the Team Explorer Everywhere license agreement now? <br/>
+Type Y and enter     <br/>
+
+     ![image](https://github.com/user-attachments/assets/4c364647-3e8e-4060-b6cd-f84968ba4d59) <br/>
+
+
+**Step #5:** <br/>
+Enter server URL > <br/>
+https://dev.azure.com/yourorganization <br/>
+
+**Step #6:** <br/>
+Enter authentication type (press enter for PAT) > PAT <br/>    
+
+
+
 
 
 
