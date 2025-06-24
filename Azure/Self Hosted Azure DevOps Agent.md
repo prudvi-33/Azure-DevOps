@@ -51,6 +51,9 @@ Login to your **Azure VM** now. <br/>
 ➥ ssh "username"@"IP", then it will prompt u to enter pwd(If u choose as pwd, while VM creation) <br/>
 ➥ Once you enter pwd and click enter, U will be successfully logged into VM. <br/>
 
+![image](https://github.com/user-attachments/assets/ee6bb4cb-23da-4c81-978d-9ad68faca3a1) <br/>
+
+
 **Now Process of installing Agent inside VM in Steps**,  <br/>
 
 **Pre-requisite:** <br/>
@@ -97,11 +100,47 @@ Enter server URL > <br/>
 https://dev.azure.com/yourorganization <br/>
 
 **Step #6:** <br/>
-Enter authentication type (press enter for PAT) > PAT <br/>    
+Enter authentication type (press enter for PAT) > **PAT** <br/>    
+You can get the PAT from: <br/>
+  ![image](https://github.com/user-attachments/assets/f7b23cbf-6cfb-45bd-a672-3524d4a32494) <br/>
+
+**Click here**  to create/Generate new Token <br/>
+
+  ![image](https://github.com/user-attachments/assets/d7fdce9e-e0d4-4b48-b8b1-f609a5f9fc84) <br/>
+
+**Step #7:** </br>
+Enter personal access token <br/>
+
+  ![image](https://github.com/user-attachments/assets/3e7595d8-d4e6-40ee-a33d-b41695b416de) <br/>
 
 
+**Step #8:** <br/>
+Enter Agent pool <br/>
+Give Agent pool name <br/>
+ 
+**Step #9:** <br/>
+Enter Agent name --> **myBuildAgent_1**/ Ur wish(based on ur project) <br/>
 
+**Step #10:** <br/>
+Enter work folder > enter(just enter/no need to type) <br/>
+  ![image](https://github.com/user-attachments/assets/f5450b45-6895-415e-ba70-3d5c1bfef0f6) <br/>
 
+🔥 **that's it!!! agent is successfully configured.** 🔥 <br/>
+============================================================
 
+⚫ **Configure the Agent to run as a Service** : <br/>
 
+You can able to see **svc.sh** file here, <br/>
+![image](https://github.com/user-attachments/assets/1ff73098-b378-4a88-a75b-a0096a26c617) <br/>
+
+    sudo ./svc.sh install ⏎ <br/>
+    sudo ./svc.sh start <br/>
+
+**Check the status of build Agent** <br/>
+**Click on the newly created pool name.** <br/>
+**Click on Agents** <br/>
+
+![image](https://github.com/user-attachments/assets/8c267a1e-487b-4740-b65a-6d4558388c87) <br/>
+
+🎉 **Woah! We’ve successfully completed the end-to-end setup of a self-hosted agent for Azure DevOps** 🚀💻🔧
 
