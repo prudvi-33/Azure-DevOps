@@ -65,10 +65,10 @@ Install the libs, dependencies needed for the Agent installation. <br/>
        mkdir myagent && cd myagent <br/>
        
 **Step #2** - Download the agent <br/>
-Navigate to <br/>
+Navigate to <br/><br/>
 https://github.com/microsoft/azure-pipelines-agent/releases <br/>
-and **Copy the url** based on which OS the agent needs to be downloaded. <br/>
-![image](https://github.com/user-attachments/assets/5bfcc511-9c87-47bc-9664-a8f9470a0087) <br/>
+and **Copy the url** based on which OS the agent needs to be downloaded. <br/> <br/>
+![image](https://github.com/user-attachments/assets/5bfcc511-9c87-47bc-9664-a8f9470a0087) <br/> <br/>
 
       wget https://download.agent.dev.azure.com/agent/4.258.1/vsts-agent-linux-x64-4.258.1.tar.gz and then enter <br/>
 It will download the agent. <br/>
