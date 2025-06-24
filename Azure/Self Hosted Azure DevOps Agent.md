@@ -65,7 +65,7 @@ Install the libs, dependencies needed for the Agent installation. <br/>
        mkdir myagent && cd myagent <br/>
        
 **Step #2** - Download the agent <br/>
-Navigate to <br/><br/>
+Navigate to <br/>
 https://github.com/microsoft/azure-pipelines-agent/releases <br/>
 and **Copy the url** based on which OS the agent needs to be downloaded. <br/> <br/>
 ![image](https://github.com/user-attachments/assets/5bfcc511-9c87-47bc-9664-a8f9470a0087) <br/> <br/>
