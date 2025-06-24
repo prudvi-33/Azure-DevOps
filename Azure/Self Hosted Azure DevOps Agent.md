@@ -43,5 +43,20 @@ This is a service totally managed by microsoft and it's cleared on every executi
 ![image](https://github.com/user-attachments/assets/2890806a-f3a8-4b8c-9b11-3a0c0d075f81) <br/>
 9. By clicking on **New Agent** on top right, U will see like this. <br/>
 ![image](https://github.com/user-attachments/assets/5c74da25-3e90-4e6a-bdb2-93f40d91a0a5) <br/>
-10. Based on VM u choose, please select the same OS type and need to run these instructions in newly created VM <br/>
+10. Based on VM u choose, please select the same OS type and need to run these instructions in newly created VM. <br/>
+
+Note down the steps to configure Linux build agent. <br/>
+Login to your **Azure VM** now. <br/>
+➥ As you have Linux VM, try to ssh into it, using Cloud shell. <br/>
+➥ ssh "username"@"IP", then it will prompt u to enter pwd(If u choose as pwd, while VM creation) <br/>
+➥ Once you enter pwd and click enter, U will be successfully logged into VM. <br/>
+
+**Now Process of installing Agent inside VM in Steps**,  <br/>
+
+**Step #1** - Create the Agent <br/>
+       mkdir myagent && cd myagent <br/>
+**Step #2** - Download the agent <br/>
+Navigate to <br/>
+https://github.com/microsoft/azure-pipelines-agent/releases <br/>
+and Copy the url based on which OS the agent needs to be downloaded. <br/>
 
