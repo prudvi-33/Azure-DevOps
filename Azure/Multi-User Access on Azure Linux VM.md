@@ -6,5 +6,9 @@
 
 ✅ Step 1: Create Dev Users <br/>
 
-             sudo adduser dharani           
-             sudo passwd dharani
+             sudo adduser dharani           # provide username
+             sudo passwd dharani            # Set a password
+             
+✅ Step 2: Validate (Ask the user to check/SSH) <br/>
+
+             ssh dharani@<linux-vm-ip> <br/>
