@@ -38,6 +38,8 @@ Once you've successfully logged into the VM as above, follow the below steps �
          kubectl version --client 
          kubelogin --version
 
+🚀 Once you successfully installed kubernetes in Linux VM, Now its time to connect to AKS. <br/>
+
  ✅   Connect to AKS <br/>
  
          az aks get-credentials --resource-group rg-doc-ai-studio-dev-01 --name aks-docaistudio-hc <br/>
