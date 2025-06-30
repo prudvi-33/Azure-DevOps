@@ -21,21 +21,21 @@ Once you've successfully logged into the VM as above, follow the below steps �
 
  ✅ **Step 1**: Install **kubectl** <br/>
  
-         sudo apt-get update <br/>
-         sudo apt-get install -y apt-transport-https ca-certificates curl <br/>
+         sudo apt-get update 
+         sudo apt-get install -y apt-transport-https ca-certificates curl 
 
  ✅ Login to **Azure** from the **VM** <br/>
-         az login <br/>
+         az login 
 
  ✅ Install **kubectl** and **kubelogin** from **az command** itself.(A quick way) <br/>   
  
-         sudo az aks install-cli <br/>
+         sudo az aks install-cli 
 
 ➤ It downloads and installs **kubectl** (the Kubernetes CLI) that's compatible with Azure AKS. <br/>
 
  ✅   After that, verify install, <br/>
  
-         kubectl version --client <br/>
+         kubectl version --client 
 
  ✅   Connect to AKS <br/>
  
