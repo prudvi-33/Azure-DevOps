@@ -17,6 +17,28 @@
 
  ![image](https://github.com/user-attachments/assets/3773d216-7978-418c-9a01-4706fdd96621) <br/>
 
+Once you've successfully logged into the VM as above, follow the below steps 🔽 <br/>
 
+ ✅ **Step 1**: Install **kubectl** <br/>
 
+         **sudo apt-get update** <br/>
+         **sudo apt-get install -y apt-transport-https ca-certificates curl** <br/>
+
+ ✅ Login to **Azure** from the **VM** <br/>
+
+         **az login** <br/>
+
+ ✅ Install **kubectl** and **kubelogin** from **az command** itself.(A quick way) <br/>      
+
+         **sudo az aks install-cli** <br/>
+
+➤ It downloads and installs **kubectl** (the Kubernetes CLI) that's compatible with Azure AKS. <br/>
+
+ ✅   After that, verify install, <br/> 
+
+         **kubectl version --client** <br/>
+
+ ✅   Connect to AKS <br/>
+         **az aks get-credentials --resource-group rg-doc-ai-studio-dev-01 --name aks-docaistudio-hc** <br/>
+ 
 
