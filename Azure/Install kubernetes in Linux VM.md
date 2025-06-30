@@ -12,7 +12,6 @@
  ![image](https://github.com/user-attachments/assets/62d74bef-5fc8-4125-a662-468d6f7c4d8d)  <br/>
 
  ✦ In the top right, Select the **Cloud shell**, One of the way to login to VM. <br/> <br/>
- ![image](https://github.com/user-attachments/assets/2c96ccb4-458d-46b2-96c5-80513ceb1f00) <br/>
 
  ✦ If you've created the VM to authenticate with username and password, then login to the VM like below, <br/>
 
