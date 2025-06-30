@@ -6,5 +6,5 @@
 
 ✅ Step 1: Create Dev Users <br/>
 
-   sudo adduser dharani           
-   sudo passwd dharani
+             sudo adduser dharani           
+             sudo passwd dharani
