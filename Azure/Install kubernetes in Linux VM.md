@@ -36,6 +36,7 @@ Once you've successfully logged into the VM as above, follow the below steps �
  ✅   After that, verify install, <br/>
  
          kubectl version --client 
+         kubelogin --version
 
  ✅   Connect to AKS <br/>
  
