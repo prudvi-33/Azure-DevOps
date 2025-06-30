@@ -42,3 +42,4 @@ Once you've successfully logged into the VM as above, follow the below steps �
          az aks get-credentials --resource-group rg-doc-ai-studio-dev-01 --name aks-docaistudio-hc <br/>
  
 
+🎯🔚 Thats, It!!!!!!!
