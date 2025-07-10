@@ -30,6 +30,7 @@ Think of it like a **receptionist** at the front desk: <br/>
 
 
 🔁 **The Flow – Step-by-Step** <br/>
+============================================
 
 ✅ **1. Client Sends Request** <br/>
 
