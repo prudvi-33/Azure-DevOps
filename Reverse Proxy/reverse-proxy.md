@@ -22,8 +22,8 @@ Think of it like a **receptionist** at the front desk: <br/>
 
 🔧 **How It Works (Visual)** <br/>
 
-              CLIENT  <br/>
-                |   <br/>
-         [ Reverse Proxy ] <br/>
-        /       |       \  <br/>
-    App1       App2      App3 <br/>
+              CLIENT  
+                |   
+         [ Reverse Proxy ] 
+        /       |       \  
+    App1       App2      App3 
