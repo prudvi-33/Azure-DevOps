@@ -38,14 +38,14 @@ This is a login page, but the browser doesn't know where the actual backend is. 
 
 ✅ **2. Request Hits the Reverse Proxy** <br/>
 
-   https://www.techospace.com/login → Nginx Reverse Proxy (public-facing) 
+    https://www.techospace.com/login → Nginx Reverse Proxy (public-facing) 
    
    Nginx accepts the HTTPS request from the browser. <br/>
    It does not handle the login itself, it just knows where to forward it internally. <br/>
 
 ✅ **3. Reverse Proxy Forwards to Backend** <br/>
 
-   Nginx forwards request → http://10.0.3.12:5000/api/login
+    Nginx forwards request → http://10.0.3.12:5000/api/login
                         (Node.js backend server)
 
 
@@ -55,8 +55,8 @@ This is a login page, but the browser doesn't know where the actual backend is. 
 
 ✅ **4. Backend Responds to Reverse Proxy** <br/>
 
-   Node.js backend → sends login result → Nginx    
+    Node.js backend → sends login result → Nginx    
 
 ✅ **5. Reverse Proxy Sends Response to Client** <br/>
 
-   Nginx → sends the response back to browser
+    Nginx → sends the response back to browser
