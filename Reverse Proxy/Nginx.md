@@ -31,7 +31,7 @@
 📍 This is where the default **index.html** lives. <br/>
 📍 If you access your VM IP in a browser, it serves from here. <br/>
 
-<img width="715" height="267" alt="image" src="https://github.com/user-attachments/assets/7e7150e6-62b1-463a-85b5-96161b4177ac" />
+<img width="600" height="267" alt="image" src="https://github.com/user-attachments/assets/7e7150e6-62b1-463a-85b5-96161b4177ac" />
  <br/>
 
 ✅ 2. **Main Config File** <br/>
