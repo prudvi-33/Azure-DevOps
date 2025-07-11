@@ -7,4 +7,4 @@
 
 <img width="818" height="147" alt="image" src="https://github.com/user-attachments/assets/81fe9ab5-14e1-4568-819f-957685fdc1f7" /> <br/>
      
-🧾 **Nginx Default Configuration Details** <br/>
+🧾 **Nginx Default Configuration Details:** <br/>
