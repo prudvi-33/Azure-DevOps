@@ -24,5 +24,32 @@
 
   🧾 **Nginx Default Configuration Details You Should know:(After Installation)** <br/>
 
+✅ 1.**Default Web Root (HTML files)** <br/>
+
+     /var/www/html/
+
+📍 This is where the default **index.html** lives. <br/>
+📍 If you access your VM IP in a browser, it serves from here. <br/>
+
+<img width="505" height="288" alt="image" src="https://github.com/user-attachments/assets/e0e0db1c-50ab-4963-8757-cf8fb0bd029d" />  <br/>
+
+✅ 2. **Main Config File** <br/>
+
+    /etc/nginx/nginx.conf
+
+📍 Main Nginx configuration file.    <br/>
+
+✅ 3. **Site Configurations** <br/>
+
+    /etc/nginx/sites-available/ 
+
+📍 This is where Nginx keeps **all the available site configurations.** <br/>
+📍 You define how **each website** should behave (port, root folder, reverse proxy, etc) here, but they’re not “live” yet. <br/>
+
+ <img width="1215" height="160" alt="image" src="https://github.com/user-attachments/assets/5ea751a5-ad04-46c6-9741-2903ab6a307e" />
+<br/> <br/>
+
+ <img width="552" height="263" alt="image" src="https://github.com/user-attachments/assets/8fa46b59-fe6a-4119-a488-dd384f10475c" />
+ <br/>
 
   
