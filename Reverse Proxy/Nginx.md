@@ -51,8 +51,9 @@
 <br/> <br/>
 
  <img width="400" height="263" alt="image" src="https://github.com/user-attachments/assets/8fa46b59-fe6a-4119-a488-dd384f10475c" />
+ 
  <br/>
-
+ <br/>
 ✅ 4. **Enabled Sites** <br/>
 
     /etc/nginx/sites-enabled/
