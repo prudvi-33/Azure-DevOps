@@ -15,6 +15,7 @@
     sudo apt install nginx -y
 
 🔹 Once you install te nginx, run the below command to check the **version** and status of **nginx**  <br/>
+
     nginx -version
     systectl status nginx
 
