@@ -53,4 +53,20 @@
  <img width="400" height="263" alt="image" src="https://github.com/user-attachments/assets/8fa46b59-fe6a-4119-a488-dd384f10475c" />
  <br/>
 
-  
+✅ 4. **Enabled Sites** <br/>
+
+   /etc/nginx/sites-enabled/
+
+👉 But instead of creating full files here, we just create a **shortcut (symlink)** to the file in **sites-available**. <br/>   
+👉 You write **config** in **sites-available**. <br/>
+👉You activate it by **linking** it into **sites-enabled**. <br/>
+
+
+✅ 5. **Log Files** <br/>
+
+   /var/log/nginx/access.log
+   /var/log/nginx/error.log
+
+<img width="300" height="170" alt="image" src="https://github.com/user-attachments/assets/812370f6-0005-4033-a6fa-6308e4b85a78" />
+
+👉 Use these to **debug traffic and errors**.  <br/>
