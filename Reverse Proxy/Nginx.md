@@ -11,6 +11,8 @@
 
 🔹 If you are using VM it could be (AWS or Azure), **log into that Ubuntu VM** then, Run the below **commands**: <br/>
 
+**Note:** Make sure in **NSG** **port 80** is Added in **Inbound rules**. <br/>
+
     sudo apt update
     sudo apt install nginx -y
 
