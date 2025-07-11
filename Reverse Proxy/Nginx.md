@@ -68,6 +68,6 @@
     /var/log/nginx/access.log
     /var/log/nginx/error.log
 
-<img width="300" height="170" alt="image" src="https://github.com/user-attachments/assets/812370f6-0005-4033-a6fa-6308e4b85a78" />
+<img width="350" height="170" alt="image" src="https://github.com/user-attachments/assets/812370f6-0005-4033-a6fa-6308e4b85a78" />
 
 👉 Use these to **debug traffic and errors**.  <br/>
