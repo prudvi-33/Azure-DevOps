@@ -19,9 +19,10 @@
     nginx -version
     systectl status nginx 
     
-<img width="1091" height="336" alt="image" src="https://github.com/user-attachments/assets/45e2cb25-9fff-43f2-a06d-0986c79e0014" />
+<img width="1091" height="336" alt="image" src="https://github.com/user-attachments/assets/45e2cb25-9fff-43f2-a06d-0986c79e0014" />  <br/> <br/>
     
 
-  🧾 **Nginx Default Configuration Details:** <br/>
+  🧾 **Nginx Default Configuration Details You Should know:(After Installation)** <br/>
+
 
   
