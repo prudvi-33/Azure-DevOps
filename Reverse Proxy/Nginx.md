@@ -17,9 +17,10 @@
 🔹 Once you install te nginx, run the below command to check the **version** and status of **nginx**  <br/>
 
     nginx -version
-    systectl status nginx
-
-    <img width="1091" height="336" alt="image" src="https://github.com/user-attachments/assets/71dcdc3c-852c-4321-b3cc-8692026cf3fc" /> <br/>
+    systectl status nginx 
+    
+<img width="1091" height="336" alt="image" src="https://github.com/user-attachments/assets/45e2cb25-9fff-43f2-a06d-0986c79e0014" />
+    
 
   🧾 **Nginx Default Configuration Details:** <br/>
 
