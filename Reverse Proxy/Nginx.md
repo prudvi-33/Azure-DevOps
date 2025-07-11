@@ -11,9 +11,15 @@
 
 🔹 If you are using VM it could be (AWS or Azure), **log into that Ubuntu VM** then, Run the below **commands**: <br/>
 
-    sudo spt update
+    sudo apt update
     sudo apt install nginx -y
-    
+
+🔹 Once you install te nginx, run the below command to check the **version** and status of **nginx**  <br/>
+    nginx -version
+    systectl status nginx
+
+    <img width="1091" height="336" alt="image" src="https://github.com/user-attachments/assets/71dcdc3c-852c-4321-b3cc-8692026cf3fc" /> <br/>
+
   🧾 **Nginx Default Configuration Details:** <br/>
 
   
