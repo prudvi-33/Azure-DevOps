@@ -1,4 +1,4 @@
-https://devopscube.com/kubernetes-kubeconfig-file/ <br/>
-http://devopscube.com/ <br/>
-https://devopscube.com/python-for-devops/#python-for-devops <br/>
-https://devopscube.com/cka-exam-study-guide/ <br/>
+1. https://devopscube.com/kubernetes-kubeconfig-file/ <br/>
+2. http://devopscube.com/ <br/>
+3. https://devopscube.com/python-for-devops/#python-for-devops <br/>
+4. https://devopscube.com/cka-exam-study-guide/ <br/>
