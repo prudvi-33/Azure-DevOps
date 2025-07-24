@@ -1,6 +1,9 @@
 🔄 **What is a Reverse Proxy?** <br/>
 
-A **reverse proxy** is a server that sits in front of your **backend servers (like web apps, APIs, services)** and forwards **client requests** to them. <br/>
+A **reverse proxy** is a server that sits in front of your **backend servers (like web apps, APIs, services)** and forwards **client requests** to them. <br/> <br/>
+
+  <img width="1032" height="681" alt="image" src="https://github.com/user-attachments/assets/3f727321-1ba8-4b87-94f8-72f44bc80392" />
+<br/>
 
 Think of it like a **receptionist** at the front desk: <br/>
 📢 **Visitors (clients) talk to the receptionist (reverse proxy)** <br/>
