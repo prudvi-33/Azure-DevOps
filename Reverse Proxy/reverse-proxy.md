@@ -11,8 +11,8 @@ Think of it like a **receptionist** at the front desk: <br/>
 
 🔒 **1. Security** <br/>
 
-    📎 Hides internal servers from the public. <br/>
-    📎 Prevents direct access to services (e.g., http://myapp.internal.local) <br/>
+    📎 Hides internal servers from the public.
+    📎 Prevents direct access to services (e.g., http://myapp.internal.local)
 
 ⚖️ **2. Load Balancing** <br/>
     📎 Distributes traffic across multiple backend servers for better performance. <br/>
