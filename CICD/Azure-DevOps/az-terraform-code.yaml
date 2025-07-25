@@ -1,1 +1,93 @@
+trigger:
+  - main
 
+pool:
+  name: docai-agent-pool  #LLM-agent-pool
+
+variables:
+  backendServiceArm: 'synapse_manual_spn_rg-llmstudio-test'
+  backendAzureRmResourceGroupName: 'rg-doc-ai-studio-dev-01'
+  backendAzureRmStorageAccountName: 'sadocaistudio01'
+  backendAzureRmContainerName: 'tfstate'
+  backendAzureRmKey: 'dev'
+  azureSubscriptionId: '94125ed2-b170-486b-a07a-0006d2d979a9'
+
+stages:
+# Stage 1: Terraform Init & Plan
+- stage: TerraformPlan
+  displayName: "Terraform Init and Plan"
+  jobs:
+  - job: Plan
+    steps:
+    - task: TerraformInstaller@1
+      displayName: Terraform installation
+      inputs:
+        terraformVersion: 'latest'
+    
+    - task: TerraformTask@5
+      displayName: Terraform Init
+      inputs:
+        provider: 'azurerm'
+        command: 'init'
+        workingDirectory: '$(System.DefaultWorkingDirectory)'
+        backendServiceArm: '$(backendServiceArm)'
+        backendAzureRmResourceGroupName: '$(backendAzureRmResourceGroupName)'
+        backendAzureRmStorageAccountName: '$(backendAzureRmStorageAccountName)'
+        backendAzureRmContainerName: '$(backendAzureRmContainerName)'
+        backendAzureRmKey: '$(backendAzureRmKey)'
+    
+    - task: AzureCLI@2
+      displayName: 'Terraform Plan'
+      inputs:
+        azureSubscription: '$(backendServiceArm)'
+        scriptType: 'bash' #ps'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          # Set subscription
+          az account set --subscription "$(azureSubscriptionId)"
+          
+          # Run Terraform Plan
+          terraform plan -target=module.redis_instances -var-file=terraform.tfvars -input=false
+
+# Stage 2: Terraform Apply (With Approval)
+- stage: TerraformApply
+  displayName: "Terraform Apply"
+  dependsOn: TerraformPlan
+  condition: succeeded()
+  jobs:
+  - deployment: ApplyJob
+    environment: Terraform-Approval  
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: TerraformInstaller@1
+            displayName: Terraform installation
+            inputs:
+              terraformVersion: 'latest'
+
+          - task: TerraformTask@5
+            displayName: Terraform Init
+            inputs:
+              provider: 'azurerm'
+              command: 'init'
+              workingDirectory: '$(System.DefaultWorkingDirectory)'
+              backendServiceArm: '$(backendServiceArm)'
+              backendAzureRmResourceGroupName: '$(backendAzureRmResourceGroupName)'
+              backendAzureRmStorageAccountName: '$(backendAzureRmStorageAccountName)'
+              backendAzureRmContainerName: '$(backendAzureRmContainerName)'
+              backendAzureRmKey: '$(backendAzureRmKey)'
+         - task: AzureCLI@2
+            displayName: 'Apply Redis Module'
+            timeoutInMinutes: 20
+            inputs:
+              azureSubscription: '$(backendServiceArm)'
+              scriptType: 'bash' #'ps'
+              scriptLocation: 'inlineScript'
+              inlineScript: |
+                # Set subscription
+                az account set --subscription "$(azureSubscriptionId)"
+                
+                # Apply the terraform module
+                echo "apply Redis module..."
+                terraform apply -auto-approve -target=module.redis_instances -var-file=terraform.tfvars -input=false
