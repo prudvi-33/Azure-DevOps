@@ -59,7 +59,19 @@ Main ============================== **explain about offer at last,** <br/> =====
 "I’m currently in the final stages of discussions with another company, and they have indicated an offer in the range of ₹14-15 LPA. <br/>
 However, I like the problem that you are solving and I'd much rather be here, and I see myself as <br/>
 being here for long run and have a strong interest in Capgemini , So I was hoping that you could atleast match amount figure, then I'd be very happy. <br/>
- 
+
+=================================================================================================================
+**“Why are you switching jobs just after 3 months?”** <br/>
+
+“When I joined Techolution, I was genuinely excited by the role, especially given the mention of Azure-focused DevOps work <br/> during the hiring discussions. However, after joining, I realized the actual work is quite limited in scope — mostly <br/> operational support, without exposure to scalable CI/CD architecture, cloud-native tooling, or infrastructure <br/>automation — which are the areas I've been consistently working on and want to grow further in.” <br/>
+
+“Rather than staying too long in a role that doesn't align with my long-term technical goals, I decided it's better to <br/> realign early. I see Deloitte as a much better fit — especially for enterprise-grade Azure DevOps work at scale, and I’m <br/> confident I can contribute meaningfully from day one.” <br/>
+
+“This is the only early move in my career. My previous stints — 2.5 years at HCL and 1.6 at TCS — show my preference for stability and consistent growth.” <br/>
+
+🧭 **If they press further on "Why not stay longer?"** <br/>
+
+“I believe that if something clearly doesn’t align with your core strengths and future path, it’s better to act early — <br/> respectfully and professionally — rather than wait too long and become disconnected or disengaged. I want to stay hands-on in building, automating, and scaling Azure DevOps systems, and this opportunity gives me that.” <br/>
 
 
 
