@@ -2,7 +2,8 @@
 🚀 You: <br/>
 "I’m looking for a competitive salary that aligns with my experience, DevOps skills, <br/>
 and market standards. May I know the budget companyname has allocated for this role?" <br/>
-
+I am looking for the best possible based on my skills and current package, 
+but I’d prefer Deloitte to make a competitive offer.
 ===================================================
 
 **🔹 If HR Insists on a Number
