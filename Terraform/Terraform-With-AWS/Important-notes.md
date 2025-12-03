@@ -16,6 +16,6 @@ Why Access key and Secret key are needed in AWS:
 
 **2. Authentication and Authorization** <br/>
 ===========================================
-**Authentication:** The keys prove the identity of the user or app making the API request. <br/>
-**Authorization:** AWS checks what actions this identity is allowed to perform by evaluating IAM policies attached to it. <br/>
-**Result:** Only the allowed API calls and actions (like uploading to S3, launching EC2 instances, etc.) are permitted. <br/>
+◼️ **Authentication:** The keys prove the identity of the user or app making the API request. <br/>
+◼️ **Authorization:** AWS checks what actions this identity is allowed to perform by evaluating IAM policies attached to it. <br/>
+◼️ **Result:** Only the allowed API calls and actions (like uploading to S3, launching EC2 instances, etc.) are permitted. <br/>
