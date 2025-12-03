@@ -14,4 +14,8 @@ provider "aws" {
 resource "aws_instance" "example" {
   ami= "ami-00dhhujdnnd"
   instance_type = "t2.micro"
+
+  tags = {
+     Name = "my-ec2" // This is name the ec2 instance as "my-ec2"
+  }
 }
