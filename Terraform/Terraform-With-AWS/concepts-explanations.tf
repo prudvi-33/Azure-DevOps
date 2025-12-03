@@ -1,5 +1,5 @@
 //Providers in AWS:
-=================
+
 
 provider "aws" { 
    region = "us-east-01"  //in which region u want to deploy ur aws resources.
