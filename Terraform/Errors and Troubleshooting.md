@@ -14,7 +14,7 @@ A previous terraform plan or apply command crashed or was interrupted. <br />
 Someone else is running Terraform on the same state file. <br />
 Lock metadata got corrupted (e.g., "terraformlockid" is empty). <br />
 
-🛠️ Solution: <br />
+**🛠️ Solution: <br />**
 Wait and retry — lock might release after some time. <br />
 Else, <br />
 then u should remove it from manually, by giving command, <br />
@@ -47,7 +47,8 @@ Temporary network failure or Azure Blob storage unresponsive. <br />
 
 Terraform couldn't send the "release lock" request. <br />
 
-🛠️ Solution: <br />
+**🛠️ Solution: <br />**
+
 Retry the command — often resolves on second attempt. <br />
 
 If lock persists, use: <br />
@@ -56,6 +57,7 @@ Get the lock ID from the error output.
 
 
 Error3: While creating resources using terraform, if identifier name is same. Example:
+==========================================================================================
 
 <img width="192" height="103" alt="image" src="https://github.com/user-attachments/assets/9cacfb54-a921-457b-bec1-c354c908f992" />  <br/>
 
