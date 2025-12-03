@@ -6,3 +6,12 @@ provider "aws" {
    access_key = "paste the key that's generated while creating in AWS IAM user"
    secret_key = "paste the key that's generated while creating in AWS IAM user"
 }
+
+
+// First Resource in AWS
+//EC2
+
+resource "aws_instance" "example" {
+  ami= "ami-00dhhujdnnd"
+  instance_type = "t2.micro"
+}
