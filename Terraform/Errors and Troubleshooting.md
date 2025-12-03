@@ -1,6 +1,7 @@
 **Errors and Troubleshooting:**:
 
 **🔒 Error 1: Error acquiring the state lock** <br />
+=========================================================
 ❗ Error: <br />
 Error: Error acquiring the state lock <br />
 Error message: state blob is already locked <br />
@@ -22,7 +23,11 @@ CMD: **az storage blob lease break  --account-name sadocaistudio01 --container-n
 --This command breaks the lease immediately, forcing the lock to release. <br />
 --Safe to run only when you're sure no one else is running Terraform on the same state file. <br />
 
+
+
 **🔓 Error 2: Error releasing the state lock** <br />
+========================================================
+
 ❗ Error: <br />
 
 Error: Error releasing the state lock <br />
@@ -48,3 +53,15 @@ Retry the command — often resolves on second attempt. <br />
 If lock persists, use: <br />
 CMD: **terraform force-unlock <lock-id>** <br />
 Get the lock ID from the error output.
+
+
+Error3: While creating resources using terraform, if identifier name is same. Example:
+
+<img width="192" height="103" alt="image" src="https://github.com/user-attachments/assets/9cacfb54-a921-457b-bec1-c354c908f992" />  <br/>
+
+Then, <br/>
+
+<img width="500" height="71" alt="image" src="https://github.com/user-attachments/assets/be2fec80-7691-4763-8128-4a5bf027de3e" /> <br/>
+
+So,,, Identifier/name should always be unique.. <br/>
+
