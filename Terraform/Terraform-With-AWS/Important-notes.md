@@ -19,3 +19,11 @@ Why Access key and Secret key are needed in AWS:
 ◼️ **Authentication:** The keys prove the identity of the user or app making the API request. <br/>
 ◼️ **Authorization:** AWS checks what actions this identity is allowed to perform by evaluating IAM policies attached to it. <br/>
 ◼️ **Result:** Only the allowed API calls and actions (like uploading to S3, launching EC2 instances, etc.) are permitted. <br/>
+
+
+Providers:
+==========
+
+A provider in Terraform is a plugin that lets Terraform interact with various APIs (like AWS, Azure, Google Cloud, Datadog, GitHub, etc.). <br/>
+
+◼️ When we run **terraform init**, plugins required for the provider are automatically downloaded and saved locally to a .terraform directory.
