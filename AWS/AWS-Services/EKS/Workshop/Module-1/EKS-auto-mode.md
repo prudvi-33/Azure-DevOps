@@ -30,7 +30,7 @@ Now open CLI, and run few commands to attach <br/>
 **AmazonEKSNetworkingPolicy** <br/>
 these above policies to the cluster IAM Role.
 
-So firstly navigate to **AWS CLI**, and run to know cluster IAM role for the EKS cluster: <br/>
+So firstly navigate to **AWS CLI**, and run to know cluster IAM role for the EKS cluster: <br/> <br/><br/>
  <img width="617" height="26" alt="image" src="https://github.com/user-attachments/assets/f207cf08-3717-43c3-bf99-b240ebd031a7" /> <br/>
 
 Once u get to know about the **Cluster role** name, then run the below commands to attach **each existing policies** to the **cluster role**: <br/>
@@ -54,3 +54,56 @@ aws iam attach-role-policy \
 aws iam attach-role-policy \
     --role-name <role-name> \
     --policy-arn arn:aws:iam::aws:policy/AmazonEKSNetworkingPolicy 
+
+
+Once u added all these, verify <br/> <br/>
+
+<img width="585" height="311" alt="image" src="https://github.com/user-attachments/assets/8e1da442-752c-415b-8781-b37172351106" />
+
+<br/>
+Now, 
+
+<img width="647" height="191" alt="image" src="https://github.com/user-attachments/assets/7762daa2-d8b4-4a2f-a932-b241dde8b2ee" /> <br/>
+
+aws eks update-cluster-config \
+    --name ${DEMO_CLUSTER_NAME} \
+    --compute-config enabled=true,nodeRoleArn=${DEMO_CLUSTER_NODE_ROLE_ARN},nodePools=system,general-purpose \
+    --kubernetes-network-config '{"elasticLoadBalancing":{"enabled": true}}' \
+    --storage-config '{"blockStorage":{"enabled": true}}'
+
+Things you must know before running update-cluster-config command: <br/>
+==========================================================================
+
+Cluster Role and Cluster Node Role both are different. Not same. It works different in EKS environement: <br/>
+
+Here's the difference. <br/> <br/>
+<img width="460" height="205" alt="image" src="https://github.com/user-attachments/assets/79a22b17-677b-46c0-a7c9-c4e4d0e5f73c" />
+<br/>
+
+Commands to check Node Role and ARN:
+==================================
+
+Step A: List Node Groups <br/>
+===============================
+aws eks list-nodegroups --cluster-name <your-cluster-name>  #To check node-groups for the cluster. <br/>
+
+Step B: Get the Node Role ARN <br/>
+=====================================
+
+aws eks describe-nodegroup \
+  --cluster-name <your-cluster-name> \
+  --nodegroup-name <your-nodegroup-name> \
+  --query "nodegroup.nodeRole" \
+  --output text
+
+The Role Name is the part of the **ARN** after the last /
+
+Now run the update-cluster-config command. 
+
+This will enable EKS Auto Mode.
+
+========================================================================
+
+
+
+
