@@ -65,10 +65,10 @@ Storage Class:
 
 <img width="475" height="253" alt="image" src="https://github.com/user-attachments/assets/c2478536-ce8a-4a2e-a113-cbec65c0fe08" />
 
-⤷ Pod is created with PVC. 
-⤷ PVC requests storage class. 
-⤷ Now provisioner calls cloud API, cloud creates the disk. 
-⤷ The PV is created and then it's bounded to PVC and mounted into the pod. 
+⤷ Pod is created with PVC. <br/>
+⤷ PVC requests storage class. <br/>
+⤷ Now provisioner calls cloud API, cloud creates the disk. <br/>
+⤷ The PV is created and then it's bounded to PVC and mounted into the pod. <br/> 
 ⤷ Now when a developer creates a PVC and references a storage class, Kubernetes automatically calls the cloud API, creates a disk, creates a matching PV and binds it to the claim. <br/>
 
 
