@@ -42,8 +42,34 @@ Grant kuna.prudviraj@techolution.com: <br/>
 
 ========================================================================================================================
 
+Persistent Volume, PVC and Storage classes:
+===============================================
+
+➤ The **PVC** is how a **developer** asks for **storage**. <br/>
+➤ Example, if a developer comes in and asks for a **10 GB read write access** storage. <br/>
+Kubernetes **finds a PV** that matches and binds them together. Then in your pods **pack you reference this claim** and inside the **container you mount it at a path**. <br/><br/>
+
+<img width="486" height="242" alt="image" src="https://github.com/user-attachments/assets/41451d7e-0150-4d7e-825d-b38c7174b33c" />
 
 
+➤ Now things to note here. <br/>
+First the **access modes.**  It could be **read write once**,**read only many** or **read write many**. This is basically the **access permission you set on the pod level**. Then the amount of storage requested and the storage class that should provision it. <br/>
+
+<img width="506" height="126" alt="image" src="https://github.com/user-attachments/assets/f1d435ac-9330-4440-a712-60076a927ff2" />
+
+Storage Class:
+==============
+
+➤ Imagine a cluster with 100s of apps **requesting storage** every day. An admin creating **persistent volumes manually** for each one. It doesn't scale. That's where the **storage class comes in**.
+➤ A storage class **dynamically provisions PVs** on demand. This is the flow. 
+
+<img width="475" height="253" alt="image" src="https://github.com/user-attachments/assets/c2478536-ce8a-4a2e-a113-cbec65c0fe08" />
+
+⤷ Pod is created with PVC. 
+⤷ PVC requests storage class. 
+⤷ Now provisioner calls cloud API, cloud creates the disk. 
+⤷ The PV is created and then it's bounded to PVC and mounted into the pod. 
+⤷ Now when a developer creates a PVC and references a storage class, Kubernetes automatically calls the cloud API, creates a disk, creates a matching PV and binds it to the claim. <br/>
 
 
 
