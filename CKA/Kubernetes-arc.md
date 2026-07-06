@@ -6,7 +6,12 @@
 📌 **Master Node** is responsible for managing the kubernetes cluster, storing information regarding the different nodes, planning which containers goes where, etc. <br/>
 📌 **Master Node** does all of these using set of components together known as the **control plane components.** <br/> <br/>
 
-                                                  ── ⋆⋅☆⋅⋆ ── <br/>
+                                                  ── ⋆⋅☆⋅⋆ ── 
                                                   
 ➺ **Etcd**: Etcd is a database that stores information in a key value format. <br/>
-➺ Scheduler: Scheduler identifies the right node to place a container on based on container resource requirements, the worker nodes capacity, or any other policies/constraints
+➺ **Scheduler**: Scheduler identifies the **right node** to place a **container** on based on **container resource requirements**, the **worker nodes capacity**, or any other policies/constraints such as **taints and tolerations** or **node affinity rules** that are on them. <br/>
+➺ **Node controller**  takes care of nodes. They are responsible for **onboarding new nodes** to the **cluster**, handling situation where nodes become unavailable. <br/>
+➺ **Replication controller** ensures that the desired number of containers are running at all times in a replication group. <br/>
+➺📌⤷ **Kube-API server** is the primary management component of kubernetes. <br/>
+    ⤷ **Kube-API server**  is responsible for orchestrating all operations within the cluster. <br/>
+    ⤷ It exposes kubernetes API, which is used by external users to perform management operations on the cluster, as well as the various controllers to monitor the state of the cluster and make necessary changes as required by the worker nodes to communicate with the server.
