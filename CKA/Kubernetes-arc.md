@@ -18,3 +18,4 @@
 ⤷ It exposes kubernetes API, which is used by external users to perform management operations on the cluster, as well as the various controllers to monitor the state of the cluster and make necessary changes as required by the worker nodes to communicate with the server. <br/>
 ⤷ **Kube-API server** periodically fetches status reports from the kubelet to monitor the status of the nodes and containers on them. <br/>
 ➺ **Kubelet** is an agent that runs on each node in a cluster. It listens for instructions from the KubeAPI server and deploys or destroys containers on the nodes as required. <br/>
+➺ **Kube-proxy** that helps in **enabling communication** between the services within the cluster. <br/>
