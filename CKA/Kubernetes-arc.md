@@ -1,1 +1,5 @@
-✦ **The Purpose of **kubernetes** :** is to host your applications in the form of **containers**,  so that you can easily deploy **as many instances of your application as required**, and easily enable communication between different services within your application.
+✦ **The Purpose of **kubernetes** :** is to host your applications in the form of **containers**,  so that you can easily deploy **as many instances of your application as required**, and easily enable communication between different services within your application. <br/>
+
+⤷ The **Kubernetes Cluster** consists of a **set of nodes**, which may be **physical** or **virtual**, **on-premise** or on **Cloud**, that **hosts application in form of containers**.
+
+⌐╦╾━💥 ⌯⁍ **Worker Nodes**: Hosts applications as **Containers**.
