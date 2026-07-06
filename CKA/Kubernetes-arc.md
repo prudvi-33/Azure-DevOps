@@ -2,6 +2,9 @@
 
 ⤷ The **Kubernetes Cluster** consists of a **set of nodes**, which may be **physical** or **virtual**, **on-premise** or on **Cloud**, that **hosts application in form of containers**.
 
-📌 **Worker Nodes**: Hosts applications as **Containers**.
-📌 **Master Node** is responsible for managing the kubernetes cluster, storing information regarding the different nodes, planning which containers goes where, etc.
-📌 **Master Node** does all of these using set of components together known as the **control plane components.**
+📌 **Worker Nodes**: Hosts applications as **Containers**. <br/>
+📌 **Master Node** is responsible for managing the kubernetes cluster, storing information regarding the different nodes, planning which containers goes where, etc. <br/>
+📌 **Master Node** does all of these using set of components together known as the **control plane components.** <br/>
+                                                  ── ⋆⋅☆⋅⋆ ──
+                                                  
+➺ **Etcd**: Etcd is a database that stores information in a key value format.
