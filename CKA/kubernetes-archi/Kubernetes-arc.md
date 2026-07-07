@@ -19,3 +19,7 @@
 ⤷ **Kube-API server** periodically fetches status reports from the kubelet to monitor the status of the nodes and containers on them. <br/>
 ➺ **Kubelet** is an agent that runs on each node in a cluster. It listens for instructions from the KubeAPI server and deploys or destroys containers on the nodes as required. <br/>
 ➺ **Kube-proxy** that helps in **enabling communication** between the services within the cluster. <br/>
+
+📌 **Container Runtime Interface (CRI)** is a **standardized plugin API** that allows Kubernetes to communicate with different container runtimes without needing to recompile the cluster components. <br/>
+📌 You need a **working container runtime** on **each Node** in your **cluster**, so that the **kubelet** can launch Pods and their containers. <br/>
+
