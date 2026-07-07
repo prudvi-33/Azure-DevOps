@@ -33,3 +33,18 @@ What Exactly Does containerd Do?
 
 ✦︎ **Image Management**: It pulls container images from remote registries (like Docker Hub) and caches them locally. <br/>
 ✦︎ **Execution & Lifecycle**: It starts, pauses, stops, and destroys container processes. <br/>
+
+
+Flow of Creating a k8s objects(pods,deployments etc) using architecture:
+==========================================================================
+📌 Let's look an example of creating a pod. 
+============================================
+↳ Firstly the request is authenticated and then validated. <br/>
+↳ Here, Now, The API Server creates a Pod object internally without assigning it to a node. Updates information in the etcd server.
+Updates the User that Pod has been created. <br/>
+↳ The scheduler continously monitors the API Server and realizes that there is a new pod with no node assigned.It evaluates your cluster nodes and assigns the pod to an appropriate worker node.<br/>
+↳ The scheduler assigns the right node to place the new pod and communicates that back to the API Server, which then writes this updated pod-to-node binding into etcd <br/>
+↳ The API Server then updates the information to the etcd server. <br/>
+↳ The API Server then passes that information to the kubelet in the appropriate worker node. <br/>
+↳ The kubelet(agent on the assigned worker node) then creates Pod on the node and instructs container runtime engine to deploy the application image.(containers) <br/>
+↳ Once done, the kubelet updates the status back to the API Server, and the API Server then updates the information back to the etcd server(cluster) <br/>
