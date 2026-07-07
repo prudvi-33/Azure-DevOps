@@ -17,9 +17,21 @@
 ⤷ **Kube-API server**  is responsible for orchestrating all operations within the cluster. <br/>
 ⤷ It exposes kubernetes API, which is used by external users to perform management operations on the cluster, as well as the various controllers to monitor the state of the cluster and make necessary changes as required by the worker nodes to communicate with the server. <br/>
 ⤷ **Kube-API server** periodically fetches status reports from the kubelet to monitor the status of the nodes and containers on them. <br/>
-➺ **Kubelet** is an agent that runs on each node in a cluster. It listens for instructions from the KubeAPI server and deploys or destroys containers on the nodes as required. <br/>
-➺ **Kube-proxy** that helps in **enabling communication** between the services within the cluster. <br/>
+➺ **Kubelet** is an agent that runs on **each node** in a cluster. It listens for instructions from the **KubeAPI server** and deploys or destroys containers on the nodes as required. <br/>
+➺ **Kube-proxy** that helps in **enabling communication** between the services within the cluster. <br/> <br/>
+
 
 📌 **Container Runtime Interface (CRI)** is a **standardized plugin API** that allows Kubernetes to communicate with different container runtimes without needing to recompile the cluster components. <br/>
 📌 You need a **working container runtime** on **each Node** in your **cluster**, so that the **kubelet** can launch Pods and their containers. <br/>
 
+Container-d Runtime:
+====================
+
+👉 **containerd** (pronounced container-dee) is an industry-standard, open-source **container runtime** that manages the complete lifecycle of containers on a host system(Kubernetes worker node).  <br/>
+
+What Exactly Does containerd Do?
+==================================
+👉 Acting as the engine on **each worker node**, **containerd** operates under the hood to perform several core tasks: <br/>
+
+✦︎ **Image Management**: It pulls container images from remote registries (like Docker Hub) and caches them locally. <br/>
+✦︎ **Execution & Lifecycle**: It starts, pauses, stops, and destroys container processes. <br/>
