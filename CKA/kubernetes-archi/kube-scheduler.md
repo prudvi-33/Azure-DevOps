@@ -16,7 +16,7 @@ Example:
 ✦ Lets take **one pod** as an example. It has set of CPU and Memory requirements. <br/>
 ✦ The scheduler goes through **two phases** to identify the **best node** for a pod. <br/>
 ⤿ In the first phase, the scheduler tries to filter out the nodes that do not fit the profile for this pod. Example, **the nodes that does not have sufficient CPU and memory resources requested by the pod.** <br/>
-⤿ The scheduler **ranks the nodes** to identify the best fit for the pod. <br/>
+⤿ In the second phase, The scheduler **ranks the nodes** to identify the best fit for the pod. <br/>
 ⤿ It uses priority function to assign a score to the nodes on scale of 0 to 10. <br/>
 ⤿ Here, the scheduler calculates the amount of resources that would be free on the nodes after placing the pod on them. <br/>
 
