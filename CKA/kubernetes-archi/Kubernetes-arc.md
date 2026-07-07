@@ -6,9 +6,7 @@
 📌 **Master Node** is responsible for managing the kubernetes cluster, storing information regarding the different nodes, planning which containers goes where, etc. <br/>
 📌 **Master Node** does all of these using set of components together known as the **control plane components.** <br/>
 
-
                                               ── ⋆⋅☆⋅⋆ ── 
-
                                               
 <br/> ➺ **Etcd**: Etcd is a database that stores information in a key value format. <br/>
 ➺ **Scheduler**: Scheduler identifies the **right node** to place a **container** on based on **container resource requirements**, the **worker nodes capacity**, or any other policies/constraints such as **taints and tolerations** or **node affinity rules** that are on them. <br/>
