@@ -4,7 +4,7 @@
 
 📌 **Worker Nodes**: Hosts applications as **Containers**. <br/>
 📌 **Master Node** is responsible for managing the kubernetes cluster, storing information regarding the different nodes, planning which containers goes where, etc. <br/>
-📌 **Master Node** does all of these using set of components together known as the **control plane components.** <br/> 
+📌 **Master Node** does all of these using set of components together known as the **control plane components.** <br>
 
                                               ── ⋆⋅☆⋅⋆ ── 
                                                   
