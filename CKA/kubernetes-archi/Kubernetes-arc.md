@@ -39,9 +39,8 @@ Flow of Creating a k8s objects(pods,deployments etc) using architecture:
 ==========================================================================
 📌 Let's look an example of creating a pod. 
 ============================================
-↳ Firstly the request is authenticated and then validated. <br/>
-↳ Here, Now, The API Server creates a Pod object internally without assigning it to a node. Updates information in the etcd server.
-Updates the User that Pod has been created. <br/>
+↳ Firstly, the API server checks the request is authenticated and then validated. <br/>
+↳ Here, Now, The API Server creates a Pod object internally and saves this desired state to etcd (Kubernetes' database of truth) without assigning it to a node. Updates information in the etcd server. Updates the User that Pod has been created. <br/>
 ↳ The scheduler continously monitors the API Server and realizes that there is a new pod with no node assigned.It evaluates your cluster nodes and assigns the pod to an appropriate worker node.<br/>
 ↳ The scheduler assigns the right node to place the new pod and communicates that back to the API Server, which then writes this updated pod-to-node binding into etcd <br/>
 ↳ The API Server then updates the information to the etcd server. <br/>
