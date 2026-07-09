@@ -15,7 +15,7 @@
 
 **Syntax:** <br/>
 
-kubectl run "<pod-name>" --image= "<container-image>" <br/>
+kubectl run "pod-name" --image= "container-image" <br/>
 
 **Example:** <br/>
 
