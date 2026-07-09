@@ -47,3 +47,9 @@ Flow of Creating a k8s objects(pods,deployments etc) using architecture:
 ↳ The API Server then passes that information to the kubelet in the appropriate worker node. <br/>
 ↳ The kubelet(agent on the assigned worker node) then creates Pod on the node and instructs container runtime engine to deploy the application image.(containers) <br/>
 ↳ Once done, the kubelet updates the status back to the API Server, and the API Server then updates the information back to the etcd server(cluster) <br/>
+
+📌 Imp note:
+==================
+Within the kubernetes cluster, **every pod can reach every other pod.** This is accomplished by deploying a **pod networking** solution to the cluster. <br/>
+A pod network is internal virtual network that spans across all the nodes in the cluster, to which all the pods connect to. <br/>
+Through this network, they're able to communicate with each other. <br/>
