@@ -21,4 +21,5 @@ kubectl run "pod-name" --image= "container-image" <br/>
 
 kubectl run my-web-server --image=nginx <br/>
 
-This instantly **creates a Pod** named **my-web-server** running the default Nginx image. <br/>
+➺ What this command actually does? So it first creates a pod automatically and deploys and instance of the nginx docker image. <br/>
+➺ This instantly **creates a Pod** named **my-web-server** running the default Nginx image. <br/>
