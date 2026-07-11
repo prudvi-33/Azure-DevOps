@@ -1,4 +1,4 @@
-YAML in Kubernetes:
+<img width="334" height="85" alt="image" src="https://github.com/user-attachments/assets/79f24bde-8f29-474a-8c9a-aa8b7c61de53" />YAML in Kubernetes:
 =====================
 📌 Kubernetes uses YAML files as inputs for the **creation of objects** such as **Pods**, **replicas**, **deployments**, **services** etc. <br/>
 📌 A Kubernetes definition file always contains four top level fields the **API Version**, **kind**, **metadata** and **spec**. <br/>
@@ -21,7 +21,8 @@ YAML in Kubernetes:
 <img width="233" height="99" alt="image" src="https://github.com/user-attachments/assets/63ee4837-af4e-4b3d-979e-5803242ef945" /> <br/>
 
 **4. spec:** <br/>
-▶︎ This is where we would provide additional information to k8s with respect to that object. This is going to be different for diff objects. <br/>
+▶︎ This is where we would provide additional information to k8s with respect to that object. This is going to be different for diff objects.
+**❝ The spec section defines what's inside the object we are creating. ❞** <br/>
 
 <img width="270" height="154" alt="image" src="https://github.com/user-attachments/assets/97d6efe0-9cbf-4127-bb55-c1acb88ff8c1" />
 
