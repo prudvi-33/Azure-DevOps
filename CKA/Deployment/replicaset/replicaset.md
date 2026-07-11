@@ -3,8 +3,7 @@ Replication Controller ✍:
 
 Controllers are brain behind the kubernetes. They are the processes that monitor kubernetes objects and respond accordingly. <br/>
 
-So what is a replica and why do we need replication controller?:
-================================================================
+**So what is a replica and why do we need replication controller?:** <br/>
 
 ➜ Let's go to past scenario where we had single pod running our application. 
 ⚠️ What if for some reason our application crashes and pod fails, users will be no longer be able to access our application ?
