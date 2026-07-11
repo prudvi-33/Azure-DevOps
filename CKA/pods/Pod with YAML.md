@@ -1,4 +1,4 @@
-<img width="334" height="85" alt="image" src="https://github.com/user-attachments/assets/79f24bde-8f29-474a-8c9a-aa8b7c61de53" />YAML in Kubernetes:
+YAML in Kubernetes:
 =====================
 📌 Kubernetes uses YAML files as inputs for the **creation of objects** such as **Pods**, **replicas**, **deployments**, **services** etc. <br/>
 📌 A Kubernetes definition file always contains four top level fields the **API Version**, **kind**, **metadata** and **spec**. <br/>
