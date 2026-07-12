@@ -19,3 +19,16 @@ explains what each field does, its data type, and whether it is a required prope
 
 ✦︎ Edit a deployment: **kubectl edit deployment my-deployment**. <br/>
 ✦︎ Edit a specific pod: **kubectl edit pod mypod**. <br/>
+
+✅️ **kubectl scale:** <br/>
+
+**kubectl scale** command is used to change the number of running replicas for a Kubernetes workload (such as a Deployment, ReplicaSet, StatefulSet, or ReplicationController). <br/>
+
+**Examples:**
+✦ Scale the deployment to 3 replicas. <br/>
+  **kubectl scale deployment mydeploy --replicas=3** <br/>
+✦ Scale using YAML file. <br/>
+**kubectl scale -f deployment.yaml --replicas=3** <br/>
+✦ Scale multiple deployments. <br/>
+**kubectl scale deployment/deploy1 deployment/deploy2 --replicas=3** <br/>
+
