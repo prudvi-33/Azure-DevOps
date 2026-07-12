@@ -30,10 +30,12 @@ Google Kubernetes Engine(GKE) 🔥:
 ➛ Requests and Limits. <br/> <br/>
 
 **❝ Scaling concepts in k8s like:❞ <br/>**
-➛ DaemonSet.
-➛ Cluster AutoScaler.
-➛ Horizontal Pod Autoscaler.
-➛ Vertical Pod Autoscaler. <br/>
+➛ DaemonSet. <br/>
+➛ Cluster AutoScaler. <br/>
+➛ Horizontal Pod Autoscaler. <br/>
+➛ Vertical Pod Autoscaler. <br/> <br/>
+
+................................ and moreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee <br/>
 
 
 
