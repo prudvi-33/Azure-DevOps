@@ -7,8 +7,8 @@
 explains what each field does, its data type, and whether it is a required property**.  <br/>
 
 **Syntax**: kubectl explain "resource_name" <br/>
-**Example**: kubectl explain deployment
-✦ View the top-level description and available fields for a **deployment** object.
+**Example**: kubectl explain deployment <br/>
+✦ View the top-level description and available fields for a **deployment** object. <br/>
 
 ✅️ **kubectl edit:** <br/>
 
