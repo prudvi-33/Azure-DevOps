@@ -17,5 +17,5 @@ explains what each field does, its data type, and whether it is a required prope
 **Syntax**: kubectl edit resource_type resource_name <br/>
 **Examples:** <br/> <br/>
 
-✦︎ Edit a deployment: kubectl edit deployment my-deployment. <br/>
-✦︎ Edit a specific pod: kubectl edit pod mypod. <br/>
+✦︎ Edit a deployment: **kubectl edit deployment my-deployment**. <br/>
+✦︎ Edit a specific pod: **kubectl edit pod mypod**. <br/>
