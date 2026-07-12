@@ -35,7 +35,7 @@ Google Kubernetes Engine(GKE) 🔥:
 ➛ Horizontal Pod Autoscaler. <br/>
 ➛ Vertical Pod Autoscaler. <br/> <br/>
 
-................................ and moreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee <br/>
+...........................................................................and many moreeeeeeeeeeeeeeeeeeeeeee <br/>
 
 
 
