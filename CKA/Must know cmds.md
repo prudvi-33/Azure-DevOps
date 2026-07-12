@@ -12,7 +12,7 @@ explains what each field does, its data type, and whether it is a required prope
 
 ✅️ **kubectl edit:** <br/>
 
-**kubectl edit** is an imperative Kubernetes command that lets you modify a Deployment's live configuration directly in the cluster.
+**kubectl edit** is an imperative Kubernetes command that lets you modify a **k8s objects** live configuration directly in the cluster.
 
 **Syntax**: kubectl edit resource_type resource_name <br/>
 **Examples:** <br/> <br/>
