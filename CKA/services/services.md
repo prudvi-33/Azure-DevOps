@@ -25,7 +25,6 @@
 
 <img width="386" height="155" alt="image" src="https://github.com/user-attachments/assets/ecd65f36-a9be-44c5-9738-d2ee8723f8a2" /> <br/> <br/>
 
-<img width="386" height="155" alt="image" src="https://github.com/user-attachments/assets/783ef360-cd5e-4dce-9e53-f2ed8314c1c2" /> <br/> <br/> 
 ➤ The **port on the Pod** is where the actual web server is running is 80, and it is referred to as the target port, because that is where the service forwards the request to. <br/>
 ➤ The **second port** is on the service itself. It is simply refer to as a port. <br/>
 ➤ Finally, we have the **port on the node** itself which we use to access the web server externally. That's known as NodePort. <br/>
