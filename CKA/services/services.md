@@ -28,7 +28,7 @@
 ➤ The **port on the Pod** is where the actual web server is running is 80, and it is referred to as the target port, because that is where the service forwards the request to. <br/>
 ➤ The **second port** is on the service itself. It is simply refer to as a port. <br/>
 ➤ Finally, we have the **port on the node** itself which we use to access the web server externally. That's known as NodePort. <br/>
-➤ NodePorts can only be in the valid range, which by default is from 30,000 to 32,767. <br/>
+➤ NodePorts can only be in the **valid range**, which by default is from **30,000 to 32,767**. <br/>
 
              
 
