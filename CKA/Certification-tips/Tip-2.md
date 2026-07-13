@@ -71,9 +71,9 @@ So generate the file and modify the selectors before creating the service)
 
 
 
-Create a Service named nginx of type NodePort to expose pod nginx's port 80 on port 30080 on the nodes:
+**Create a Service named nginx of type NodePort to expose pod nginx's port 80 on port 30080 on the nodes:** <br/>
 
-kubectl expose pod nginx --type=NodePort --port=80 --name=nginx-service --dry-run=client -o yaml
+kubectl expose pod nginx --type=NodePort --port=80 --name=nginx-service --dry-run=client -o yaml <br/>
 
 (This will automatically use the pod's labels as selectors, but you cannot specify the node port. You have to generate a definition file and then add the node port in manually before creating the service with the pod.)
 
