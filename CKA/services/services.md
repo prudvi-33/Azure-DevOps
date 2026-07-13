@@ -1,4 +1,4 @@
-📌 Services in k8s:
+<img width="386" height="155" alt="image" src="https://github.com/user-attachments/assets/783ef360-cd5e-4dce-9e53-f2ed8314c1c2" />📌 Services in k8s:
 =====================
 ➤ Services provide stable, permanent IP address and DNS Name ensuring the Pods remain accessible, even as they are updated or scaled. Because Pods are ephemeral (they die and get recreated with new IP addresses). <br/>
 ➤ Kubernetes Service is an object just like pods, replicasets or deployments. <br/> <br/>
@@ -21,8 +21,16 @@
 
 <img width="662" height="299" alt="image" src="https://github.com/user-attachments/assets/db213a63-b9b0-4630-9ba2-e48d6efd2d76" /> <br/> <br/>
 
-<img width="490" height="208" alt="image" src="https://github.com/user-attachments/assets/ddeeae79-b95b-4a96-9041-601a54ea2346" />
+<img width="490" height="208" alt="image" src="https://github.com/user-attachments/assets/ddeeae79-b95b-4a96-9041-601a54ea2346" /> <br/> <br/>
 
+<img width="386" height="155" alt="image" src="https://github.com/user-attachments/assets/ecd65f36-a9be-44c5-9738-d2ee8723f8a2" /> <br/> <br/>
+
+➤ The **port on the Pod** is where the actual web server is running is 80, and it is referred to as the target port, because that is where the service forwards the request to. <br/>
+➤ The **second port** is on the service itself. It is simply refer to as a port. <br/>
+➤ Finally, we have the **port on the node** itself which we use to access the web server externally. That's known as NodePort. <br/>
+➤ NodePorts can only be in the valid range, which by default is from 30,000 to 32,767. <br/>
+
+             
 
 
 
