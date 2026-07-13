@@ -13,6 +13,31 @@
 
 👉 If you are looking to set up a service that will allow you external access to your app, this is not the right choice for you. <br/>
 
+**NodePort Service:** <br/>
+
+➤ Exposes the **service on each Node’s IP** at a static port (30000–32767). <br/>
+➤ A **NodePort service** opens a gateway for **external access to your cluster and web application**. <br/>
+⤷ It operates by exposing a specific port at the node level within Kubernetes. Traffic hitting this node port is then forwarded to the corresponding service, which in turn routes it to your web application. <br/> <br/>
+
+<img width="662" height="299" alt="image" src="https://github.com/user-attachments/assets/db213a63-b9b0-4630-9ba2-e48d6efd2d76" /> <br/> <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
