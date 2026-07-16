@@ -3,7 +3,7 @@
 <img width="245" height="58" alt="image" src="https://github.com/user-attachments/assets/22cccee1-d0d4-4d46-bd13-d33058283f67" /> <br/> <br/>
 ➤ Every Pod requires set of resources to run. <br/>
 ➤ Example, We have a pod 📦 requires two CPU's and 1 Memory. <br/>
-➤ Now, whenever a pod is placed on a node, it consumes the resources available on that node. <br/>
+➤ Now, whenever a pod is placed on a node, it consumes the resources available on that node. <br/> <br/>
 <img width="149" height="151" alt="image" src="https://github.com/user-attachments/assets/20525f2e-d792-4c06-835b-90c54756e78c" /> <br/>
 👉 As we know, it is the **k8s scheduler that decides which node a pod goes**. <img width="134" height="37" alt="image" src="https://github.com/user-attachments/assets/5cc5b913-6516-40d7-88fd-74b8031c7399" /> <br/>
 ➤ The scheduler takes into consideration **the amount of resources required by a pod** and **those available on the nodes**, and identifies **the best node to place a pod on**. <br/>
