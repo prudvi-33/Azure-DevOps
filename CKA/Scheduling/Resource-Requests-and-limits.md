@@ -1,5 +1,6 @@
-<img width="245" height="58" alt="image" src="https://github.com/user-attachments/assets/22cccee1-d0d4-4d46-bd13-d33058283f67" />📌 Resource Requirements:
+📌 Resource Requirements: 
 =========================
+<img width="245" height="58" alt="image" src="https://github.com/user-attachments/assets/22cccee1-d0d4-4d46-bd13-d33058283f67" /> <br/> <br/>
 ➤ Every Pod requires set of resources to run. <br/>
 ➤ Example, We have a pod 📦 requires two CPU's and 1 Memory. <br/>
 ➤ Now, whenever a pod is placed on a node, it consumes the resources available on that node. <br/>
