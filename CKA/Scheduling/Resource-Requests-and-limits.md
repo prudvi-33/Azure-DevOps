@@ -4,8 +4,8 @@
 ➤ Every Pod requires set of resources to run. <br/>
 ➤ Example, We have a pod 📦 requires two CPU's and 1 Memory. <br/>
 ➤ Now, whenever a pod is placed on a node, it consumes the resources available on that node. <br/> <br/>
-<img width="149" height="151" alt="image" src="https://github.com/user-attachments/assets/20525f2e-d792-4c06-835b-90c54756e78c" /> <br/>
-👉 As we know, it is the **k8s scheduler that decides which node a pod goes**. <img width="134" height="37" alt="image" src="https://github.com/user-attachments/assets/5cc5b913-6516-40d7-88fd-74b8031c7399" /> <br/>
+<img width="149" height="151" alt="image" src="https://github.com/user-attachments/assets/20525f2e-d792-4c06-835b-90c54756e78c" /> <br/> <br/>
+👉 As we know, it is the **k8s scheduler that decides which node a pod goes to**. <img width="134" height="37" alt="image" src="https://github.com/user-attachments/assets/5cc5b913-6516-40d7-88fd-74b8031c7399" /> <br/>
 ➤ The scheduler takes into consideration **the amount of resources required by a pod** and **those available on the nodes**, and identifies **the best node to place a pod on**. <br/>
 ➤ If **nodes have no sufficient resources** available, then **scheduler avoids placing the pod on those nodes** and you will see the **pod in pending state.** instead it **places the pod on one where sufficient resources are available**. <br/>
 <img width="353" height="57" alt="image" src="https://github.com/user-attachments/assets/1e7e3566-3112-4e5e-90a5-0320df560fb6" /> <br/> <br/>
