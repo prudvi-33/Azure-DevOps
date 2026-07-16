@@ -8,6 +8,7 @@ There are **three taint effects:** <br/> <br/>
 ▸ **PreferNoSchedule** : Means the system will try to avoid placing a pod on the node, but that's not guaranteed. <br/>
 ▸ **NoExecute**: Means New Pods will not be scheduled on the node and existing pods on the node, if any will be evicted if they do not tolerate the taint. <br/> <br/>
 
-**Tolerations are added to Pods:** <br/> 
+**Tolerations are added to Pods:** <br/> <br/>
 <img width="155" height="130" alt="image" src="https://github.com/user-attachments/assets/cb079d91-4818-4b7e-95d6-dde901083953" /> <br/> <br/>
-
+▸ Remember, Taints and Tolerations are only meant to restrict nodes from accepting certain pods. <br/>
+▸ So, taints and tolerations does not tell the pod to go to particular node. Instead, it tells the node to only accept pods with certain tolerations.
