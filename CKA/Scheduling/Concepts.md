@@ -8,5 +8,6 @@
 2. Configure the Pod: You add a **nodeSelector** field in your **Pod configuration matching that exact key-value pair.**
 3. The Result: The **Kubernetes scheduler** will only place that **Pod on a node that has the matching label**. If no such node is available, the Pod remains in a Pending state. <br/>
 
-<img width="345" height="344" alt="image" src="https://github.com/user-attachments/assets/505eef3a-1ae8-4538-90f8-7abd8cd965c7" />
+<img width="345" height="344" alt="image" src="https://github.com/user-attachments/assets/505eef3a-1ae8-4538-90f8-7abd8cd965c7" /> <br/>
+✅ **Node-Affinity:** This has advanced features than nodeSelector.
 
