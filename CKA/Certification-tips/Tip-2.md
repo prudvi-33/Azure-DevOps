@@ -28,6 +28,14 @@ as required, instead of creating the files from scratch. <br/> <br/>
 
 ▸ kubectl run nginx --image=nginx --dry-run=client -o yaml <br/> <br/>
 
+**If you want to add label for the pod or deployment, we can add it through imperative command itself** <br/>
+
+▸ kubectl run mypod --image=nginx --labels="app=frontend" --dry-run=client -o yaml <br/> <br/>
+
+**Generate POD manifest YAML (-o yaml) along with port that container runs on..** <br/>
+
+▸ kubectl run mypod --image=nginx --port=80 --dry-run=client -o yaml <br/> <br/>
+
 ✦ Deployment
 =============
 
