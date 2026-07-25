@@ -10,9 +10,9 @@
 
 <img width="345" height="344" alt="image" src="https://github.com/user-attachments/assets/505eef3a-1ae8-4538-90f8-7abd8cd965c7" /> <br/>
 ✅ **Node-Affinity:** This has advanced features than nodeSelector. <br/>
-✅ **Static-Pods:** /etc/kubernetes/manifests - This is the directory location where static pod manifest files should be placed. <br/>
+✅ **Static-Pods:** /etc/kubernetes/manifests - This is the directory location where static pod manifest files should be placed. <br/> <br/>
 <img width="269" height="151" alt="image" src="https://github.com/user-attachments/assets/82dd7109-f236-403e-8777-4667b9528076" /> <br/> <br/>
-✔ kubelet periodically checks this directory for files, reads these files, and creates pods on the host. <br/>
+✔ kubelet periodically checks this directory for files, reads these files, and creates pods on the host. <br/> <br/>
 <img width="238" height="143" alt="image" src="https://github.com/user-attachments/assets/c8bdcbad-09ab-4f32-a9b6-6b9808563c6a" /> <br/><br/>
 ✔ Not only does it create the pod, it can ensure that the pod stays alive. If the application crashes, the kubelet attempts to restart it. <br/>
 ✔ If you make a change to any of the file within this directory, the kubelet recreates the pod for those changes to take effect. <br/>
