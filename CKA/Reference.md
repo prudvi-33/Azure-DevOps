@@ -2,3 +2,4 @@
 📌 **Scheduling Blogs to learn(Must):** <br/>
 2. https://github.com/kubernetes/community/blob/main/contributors/devel/sig-scheduling/scheduling_code_hierarchy_overview.md <br/>
 3. https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/ <br/>
+4. https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/ <br/>
