@@ -20,7 +20,12 @@
 📌 So these pods that are created by kubelet on its own, without the intervention from the API Server or the rest of the kubernetes cluster components are known as **static pods.** <br/>
 ✅ **Priority Classes.** - Pods/Deployments with **high priority** scheduled first.<br/>
 ✅ **Multiple schedulers.** -  **Custom Schedulers** - **schedulerName** : **"CustomSchedulerName"** <br/>
-✅ **Scheduler Profiles.** <br/>
+✅ **Scheduler Profiles.** <br/> <br/>
+<img width="477" height="218" alt="image" src="https://github.com/user-attachments/assets/3dfa1229-1642-4594-bb90-ed7ea6abed76" /> <br/> <br/>
+📌 **Scheduling Blogs to learn(Must):**
+1. https://github.com/kubernetes/community/blob/main/contributors/devel/sig-scheduling/scheduling_code_hierarchy_overview.md <br/>
+2. https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/ <br/>
+
 
 
 
