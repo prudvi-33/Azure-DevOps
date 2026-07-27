@@ -18,7 +18,9 @@
 ✔ If you make a change to any of the file within this directory, the kubelet recreates the pod for those changes to take effect. <br/>
 ✔ If you remove a file from this directory, the pod will be deleted automatically. <br/>
 📌 So these pods that are created by kubelet on its own, without the intervention from the API Server or the rest of the kubernetes cluster components are known as **static pods.** <br/>
-
+✅ **Priority Classes.** <br/>
+✅ **Multiple schedulers.** <br/>
+✅ **Scheduler Profiles.** <br/>
 
 
 
