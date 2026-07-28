@@ -11,8 +11,8 @@ sure the user is valid**. <br/>
 <img width="534" height="230" alt="image" src="https://github.com/user-attachments/assets/053e7f7f-ad81-498a-b85f-cf506e9b81f1" /> <br/> <br/>
 👉 So in this case, if the user was assigned this particular role of a developer, the user is allowed to list, get, create, update or delete pods. And so if the request that came in matched any of these conditions, it is allowed to go through.
 Otherwise it's rejected. So that's authorization with role based access control. <br/>
-📌 Now, as you can see, most of these rules that you can create with role based access control is at the Kubernetes API level like what user is allowed access to what kind of API operations and it does not go beyond that. <br/>
-**But what if you want to do more than just define what kind of access a user has to an object?** <br/>
+📌 Now, as you can see, most of these rules that you can create with role based access control is at the Kubernetes API level like what user is allowed access to what kind of API operations and it does not go beyond that. <br/> <br/>
+**But what if you want to do more than just define what kind of access a user has to an object?** <br/> <br/>
 For example, **when a pod creation request comes in, you'd like to review the configuration file and
 look at the image name and say that you do not want to allow images from a public Docker Hub registry.** <br/> <br/>
 <img width="440" height="187" alt="image" src="https://github.com/user-attachments/assets/0a85ab4c-c1f5-4a41-8bf5-0456c4aa6d10" /> <br/ ><br/>
