@@ -6,4 +6,8 @@
  ✦ When you specify a command in JSON Array Format, the first element in the array should be executable. The command and its parameters should be separate elements in the list. <br/> <br/>
  <img width="450" height="95" alt="image" src="https://github.com/user-attachments/assets/fc1cbdb5-6b93-42b2-aa5a-a96ffe96a4a5" /> <br/> <br/>
  ✦ **Entrypoint** defines Executable command. **CMD** provides default args.
- <img width="398" height="148" alt="image" src="https://github.com/user-attachments/assets/034dd8ef-e76a-4fa7-b99d-50ddb7520a85" />
+ <img width="398" height="148" alt="image" src="https://github.com/user-attachments/assets/034dd8ef-e76a-4fa7-b99d-50ddb7520a85" /> <br/> <br/>
+
+ Commands and Args in K8s pod: <br/>
+ ==============================
+ ✦
