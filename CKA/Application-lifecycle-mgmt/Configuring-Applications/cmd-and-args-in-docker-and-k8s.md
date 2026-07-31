@@ -10,4 +10,5 @@
 
  Commands and Args in K8s pod: <br/>
  ==============================
- ✦
+ <img width="450" height="209" alt="image" src="https://github.com/user-attachments/assets/c0c43949-fc5c-46d0-a172-08c3eef5501a" />
+
