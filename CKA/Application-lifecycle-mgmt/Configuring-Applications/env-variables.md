@@ -16,12 +16,12 @@ There are two phases involved in configuring **ConfigMaps**<br/>
 2. Inject them into the pod. <br/> <br/>
 <img width="347" height="183" alt="image" src="https://github.com/user-attachments/assets/428ac24f-4b9a-4d81-97eb-0b85c78218e6" /> <br/> <br/>
 **Ways to create **configMap**:**  <br/>
-1. **Imperative:** kubectl create configmap --from-literal="key"="value" <br/>
+1. **Imperative:** kubectl create configmap --from-literal="key"="value" <br/> <br/>
 <img width="206" height="113" alt="image" src="https://github.com/user-attachments/assets/002391c8-cdd1-41fb-ae7a-33557f9b4c22" /> <br/> <br/>
 ⬩ **Another option is specifying the file path**: kubectl create configmap "config-name" --from-file=app_config.properties <br/>
-2. **Declarative:** We create a definition file just like we do for other objects(pod, Deployment) <br/>
+2. **Declarative:** We create a definition file just like we do for other objects(pod, Deployment) <br/> <br/>
 <img width="189" height="178" alt="image" src="https://github.com/user-attachments/assets/84c2198d-43b7-4363-830b-ffdbfc79d346" /> <br/> <br/>
-3. **How do we inject the configmap into the pod definitition:** <br/>
+3. **How do we inject the configmap into the pod definitition:** <br/> <br/>
 <img width="379" height="158" alt="image" src="https://github.com/user-attachments/assets/47d1833e-5c23-4b64-9748-cae8d74f24d6" /> <br/>
 
 
