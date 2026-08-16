@@ -5,4 +5,5 @@
 ✅ Whenever we want to run commands or interact with etcd, We run <br/>
  **ETCDCTL_API=3 etcdctl snapshot ""** etc command. <br/>
 ⬩ But everytime to use ETCDCTL_API=3 will be burden. So we can give export **export ETCDCTL_API=3** , So from the next time, we can start command with starting **etcdctl** itself.
-Example: **etcdctl snapshot ""** <br/> 
+Example: **etcdctl snapshot ""** <br/>
+⬩ You can also know the size of the backup file or the other manifest files as well by running **du -sh "file name with path"** <br/>
