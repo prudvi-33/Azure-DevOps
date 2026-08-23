@@ -14,3 +14,5 @@ PV and PVC and attaching PVC to pod:
 <img width="550" height="256" alt="image" src="https://github.com/user-attachments/assets/d055779b-7cfc-4724-9f14-029f10be7d94" /> <br/> <br/>
 
 
+
+
