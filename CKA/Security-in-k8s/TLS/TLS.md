@@ -5,4 +5,4 @@ Our Goals:
 3. How to generate them?
 4. How to configure them?
 5. How to view them ?
-6. How to troubleshoot issues related to kubernetes?
+6. How to troubleshoot issues related to certificates?
