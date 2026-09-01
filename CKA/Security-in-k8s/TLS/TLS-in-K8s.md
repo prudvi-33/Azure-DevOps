@@ -6,3 +6,4 @@
 2. Root certificates configured on CA Servers. <br/>
 3. Client Certificates configured on clients. <br/> <br/>
 <img width="514" height="249" alt="image" src="https://github.com/user-attachments/assets/3911125b-dbc5-4ac4-86f8-2009780facd0" /> <br/> <br/>
+<img width="609" height="266" alt="image" src="https://github.com/user-attachments/assets/aaa8b5d6-5993-4196-bc6a-000568514498" />
