@@ -17,6 +17,9 @@ Kubernetes has laid out clearly the requirements for pod networking. <br/><br/>
 3. **Every POD** Should be able to communicate with **every other POD** on **other nodes** without NAT. <br/><br/>
 <img width="433" height="257" alt="image" src="https://github.com/user-attachments/assets/afaaad1b-d9f0-4560-9480-e827e934deda" /> <br/> <br/>
 It doesn't care what IP address that is and what range or subnet it belongs to. As long as you can implement a solution that takes care of a**utomatically assigning IP addresses** and **establish connectivity** between **the pods in a node** as well as **pods on different nodes**, you're good. <br/> <br/>
+📌 The container IPs are created directly from the bridge network's subnet range. <br/> <br/>
+<img width="527" height="179" alt="image" src="https://github.com/user-attachments/assets/0082d4d1-8c85-47b8-95a8-0bbfedb7408e" /> <br/><br/>
+
 
 ✦ A Pod is not an actual physical object; it is a logical grouping of one or more containers. <br/>
 ✦ When **Kubernetes creates a Pod**, the container runtime (like containery or Docker) first creates a **single Linux network namespace** for that **Pod**. <br/>
