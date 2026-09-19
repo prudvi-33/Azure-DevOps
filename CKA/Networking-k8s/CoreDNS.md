@@ -1,4 +1,4 @@
-<img width="401" height="185" alt="image" src="https://github.com/user-attachments/assets/e35b5e83-dada-4159-a04d-b0357df4bc62" />How k8s implements/setup CoreDNS in the cluster:
+How k8s implements/setup CoreDNS in the cluster:
 ================================================
 ➔ The **DNS Server** is deployed as a **pod** in **kube-system** namespace in the **kubernetes cluster**.
 ➔ They are deployed as **two pods** for redundancy as a part of a **replicaset.** <br/> <br/>
