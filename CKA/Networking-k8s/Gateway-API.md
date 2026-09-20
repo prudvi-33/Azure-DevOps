@@ -6,3 +6,4 @@
 ◆ A **Gateway** is a Kubernetes resource that defines how traffic enters your cluster. It specifies the protocols, ports, and routing rules for incoming traffic. <br/>
 ◆ An **HTTPRoute** defines how HTTP traffic is forwarded to Kubernetes services. It works in conjunction with a Gateway to route requests based on specific rules, such as matching paths or headers.<br/><br/>
 <img width="508" height="225" alt="image" src="https://github.com/user-attachments/assets/a8e38b59-45d8-4cd7-bca1-bbc9c09c95a3" /> <br/> <br/>
+<img width="476" height="163" alt="image" src="https://github.com/user-attachments/assets/24c20f7f-b96e-451d-b063-5561b3e69e4e" /> <br/> <br/>
