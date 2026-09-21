@@ -7,6 +7,11 @@ Let's go through the steps to set up the **kubernetes cluster** using **kubeadm 
 5. The next step is to **initialize the master server.** During this process, all the required components are installed and configured on the master server. Once the master is initialized, and before joining the worker nodes to the master, you must ensure that the network prerequisites are met.
 6. K8s requires special networking for this, known as **Pod Networking.**
 7. The last step is to join worker nodes to the master nodes. Then all set. <br/> <br/>
-<img width="483" height="242" alt="image" src="https://github.com/user-attachments/assets/1dd50c12-adc6-4228-99e2-31cd9e8f7fd3" />
+<img width="483" height="242" alt="image" src="https://github.com/user-attachments/assets/1dd50c12-adc6-4228-99e2-31cd9e8f7fd3" /> <br/> <br/>
+
+
+Commands :
+=========
+1. **container config default**: to view **containerd** config file content. 
 
 
