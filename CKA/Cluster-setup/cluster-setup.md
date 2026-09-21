@@ -12,6 +12,7 @@ Let's go through the steps to set up the **kubernetes cluster** using **kubeadm 
 
 Commands :
 =========
-1. **container config default**: to view **containerd** config file content. 
+1. **container config default**: to view **containerd** config file content.
+2. **/etc/containerd/config.toml**: containerd configuration path.
 
 
