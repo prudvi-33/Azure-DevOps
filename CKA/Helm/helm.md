@@ -1,7 +1,8 @@
 ➔ Helm 2 vs Helm 3 <br/>
 ➔ helm install <br/>
 ➔ helm upgrade <br/>
-➔ helm rollback <br/> <br/>
+➔ helm rollback <br/> 
+➔ helm search reponame <br/> <br/>
 **Helm components:** <br/> <br/>
 ✔️ when a chart is applied to your cluster, a release is created. A release is a single installation of an application using Helm Chart. <br/> 
 Within each release, you can have multiple revisions, and each revision is like a snapshot of the application. <br/> <br/>
