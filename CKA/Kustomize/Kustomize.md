@@ -11,5 +11,16 @@ Kustomize installation:
 <img width="491" height="223" alt="image" src="https://github.com/user-attachments/assets/860a3a6d-45c4-4ea6-836a-6d144a5ac62e" /> <br/> <br/>
 <img width="501" height="267" alt="image" src="https://github.com/user-attachments/assets/101dc394-3f61-48cf-906c-d56b209b68b1" /> <br/> <br/>
 <img width="476" height="193" alt="image" src="https://github.com/user-attachments/assets/2343b631-6315-4d1c-972d-a8dcfc0eab87" /> <br/> <br/>
+<img width="506" height="232" alt="image" src="https://github.com/user-attachments/assets/c8fe6286-3045-439a-8418-62bd6e146738" /> <br/> <br/>
+
+Apply Kustomize configs:
+========================
+<img width="506" height="232" alt="image" src="https://github.com/user-attachments/assets/70746d83-5106-4dc6-af52-f00379e61ac0" /> <br/> <br/>
+⚫ We're applying a file that comes from output of the first command, which is the **kustomize build k8s/** command. <br/>
+⚫ So what we're doing is taking is the output of the command and applying it as input of the other command. <br/>
+⚫ We can do this natively with just kubectl tool as well like **kubectl apply -k k8s/** . We pass -k instead of -f. <br/> <br/>
+<img width="172" height="41" alt="image" src="https://github.com/user-attachments/assets/ea2df7f7-28aa-4053-9da2-3deb84534ace" />
+
+
 
 
