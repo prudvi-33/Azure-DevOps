@@ -18,7 +18,9 @@ Apply Kustomize configs:
 ⚫ We're applying a file that comes from output of the first command, which is the **kustomize build k8s/** command. <br/>
 ⚫ So what we're doing is taking is the output of the command and applying it as input of the other command. <br/>
 ⚫ We can do this natively with just kubectl tool as well like **kubectl apply -k k8s/** . We pass -k instead of -f. <br/> <br/>
-<img width="172" height="41" alt="image" src="https://github.com/user-attachments/assets/ea2df7f7-28aa-4053-9da2-3deb84534ace" />
+<img width="172" height="41" alt="image" src="https://github.com/user-attachments/assets/ea2df7f7-28aa-4053-9da2-3deb84534ace" /> <br/> <br/>
+<img width="509" height="230" alt="image" src="https://github.com/user-attachments/assets/4f736d53-d951-47e8-bacb-c001966e165b" />
+
 
 
 
