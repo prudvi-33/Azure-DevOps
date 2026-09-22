@@ -11,7 +11,6 @@ Kustomize installation:
 <img width="491" height="223" alt="image" src="https://github.com/user-attachments/assets/860a3a6d-45c4-4ea6-836a-6d144a5ac62e" /> <br/> <br/>
 <img width="501" height="267" alt="image" src="https://github.com/user-attachments/assets/101dc394-3f61-48cf-906c-d56b209b68b1" /> <br/> <br/>
 <img width="476" height="193" alt="image" src="https://github.com/user-attachments/assets/2343b631-6315-4d1c-972d-a8dcfc0eab87" /> <br/> <br/>
-<img width="506" height="232" alt="image" src="https://github.com/user-attachments/assets/c8fe6286-3045-439a-8418-62bd6e146738" /> <br/> <br/>
 
 Apply Kustomize configs:
 ========================
