@@ -7,4 +7,6 @@
 Kustomize installation:
 =======================
 ⚫ Before installing **Kustomize**, You must first have a **kubernetes cluster up and running** and **kubectl** installed on your local machine and configured to connect to your kubernetes cluster. <br/>
-⚫ Kustomize can be installed on a **Linux, Windows or a Mac Machine.**
+⚫ Kustomize can be installed on a **Linux, Windows or a Mac Machine.** <br/> <br/>
+<img width="491" height="223" alt="image" src="https://github.com/user-attachments/assets/860a3a6d-45c4-4ea6-836a-6d144a5ac62e" /> <br/> <br/>
+
