@@ -22,6 +22,10 @@ Examples: <br/> <br/>
 <img width="488" height="271" alt="image" src="https://github.com/user-attachments/assets/67f65820-9c90-4a7c-87b6-29e987ea8851" /> <br/> <br/>
 **Add List Strategic Merge Patch** <br/> <br/>
 <img width="505" height="260" alt="image" src="https://github.com/user-attachments/assets/7847d42b-d03b-4a6a-8163-d110c98b5c24" /> <br/> <br/>
+**Delete List Json6902** <br/> <br/>
+<img width="496" height="277" alt="image" src="https://github.com/user-attachments/assets/815faa79-6fda-4899-a0c9-9d97a7f71b79" /> <br/> <br/>
+**Delete List Strategic Merge Patch** <br/> <br/>
+<img width="514" height="278" alt="image" src="https://github.com/user-attachments/assets/bd389104-84ac-4433-bf7f-edf8b601a8ad" /> <br/> <br/>
 
 
 
