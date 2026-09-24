@@ -3,5 +3,7 @@
 Examples: <br/> <br/>
 <img width="499" height="268" alt="image" src="https://github.com/user-attachments/assets/087c72d9-15e4-4d48-ac79-1ecb928ef497" /> <br/> <br/>
 <img width="478" height="237" alt="image" src="https://github.com/user-attachments/assets/e5087f4e-f38a-4019-8782-6f1d1400b1d7" /> <br/> <br/>
+**Types of Patches:** <br/> <br/>
+<img width="500" height="242" alt="image" src="https://github.com/user-attachments/assets/083ac354-6909-4c8f-8b36-a230bb111ca6" /> <br/> <br/>
 
 
