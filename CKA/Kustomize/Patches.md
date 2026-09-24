@@ -14,5 +14,14 @@ Examples: <br/> <br/>
 <img width="493" height="272" alt="image" src="https://github.com/user-attachments/assets/41366a36-8f9e-405a-9308-58c5ccf2e83f" /> <br/> <br/>
 **Remove Dictionary using Strategic Merge Patch** <br/> <br/>
 <img width="485" height="266" alt="image" src="https://github.com/user-attachments/assets/d2c7f028-f60b-4e3a-bf1a-d620e3067529" /> <br/> <br/>
+**Replace List Json6902** <br/> <br/>
+<img width="488" height="266" alt="image" src="https://github.com/user-attachments/assets/26e48434-d8a2-422f-bda5-d23b07354089" /> <br/> <br/>
+**Replace List Strategic Merge Patch** <br/> <br/>
+<img width="497" height="274" alt="image" src="https://github.com/user-attachments/assets/2bd0acfe-4b7c-4c25-9eea-9cafba8ade77" /> <br/> <br/>
+**Add List Json6902** <br/> <br/>
+<img width="488" height="271" alt="image" src="https://github.com/user-attachments/assets/67f65820-9c90-4a7c-87b6-29e987ea8851" /> <br/> <br/>
+**Add List Strategic Merge Patch** <br/> <br/>
+<img width="505" height="260" alt="image" src="https://github.com/user-attachments/assets/7847d42b-d03b-4a6a-8163-d110c98b5c24" /> <br/> <br/>
+
 
 
