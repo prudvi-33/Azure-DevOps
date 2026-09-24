@@ -13,7 +13,7 @@ Examples: <br/> <br/>
 **Remove dictionary using Json6902** <br/> <br/>
 <img width="493" height="272" alt="image" src="https://github.com/user-attachments/assets/41366a36-8f9e-405a-9308-58c5ccf2e83f" /> <br/> <br/>
 **Remove Dictionary using Strategic Merge Patch** <br/> <br/>
-<img width="485" height="266" alt="image" src="https://github.com/user-attachments/assets/d2c7f028-f60b-4e3a-bf1a-d620e3067529" /> <br/> <br/>
+<img width="485" height="266" alt="image" src="https://github.com/user-attachments/assets/d2c7f028-f60b-4e3a-bf1a-d620e3067529" /> <br/> <br/> <br/>
 **Replace List Json6902** <br/> <br/>
 <img width="488" height="266" alt="image" src="https://github.com/user-attachments/assets/26e48434-d8a2-422f-bda5-d23b07354089" /> <br/> <br/>
 **Replace List Strategic Merge Patch** <br/> <br/>
@@ -25,7 +25,14 @@ Examples: <br/> <br/>
 **Delete List Json6902** <br/> <br/>
 <img width="496" height="277" alt="image" src="https://github.com/user-attachments/assets/815faa79-6fda-4899-a0c9-9d97a7f71b79" /> <br/> <br/>
 **Delete List Strategic Merge Patch** <br/> <br/>
-<img width="514" height="278" alt="image" src="https://github.com/user-attachments/assets/bd389104-84ac-4433-bf7f-edf8b601a8ad" /> <br/> <br/>
+<img width="514" height="278" alt="image" src="https://github.com/user-attachments/assets/bd389104-84ac-4433-bf7f-edf8b601a8ad" /> <br/> <br/><br/>
+**Overlays:** <br/><br/>
+
+<img width="521" height="263" alt="image" src="https://github.com/user-attachments/assets/9189baaf-3510-45b7-8ab2-f1a548431e05" /> <br/><br/>
+<img width="554" height="272" alt="image" src="https://github.com/user-attachments/assets/8d861ea1-2ce6-4471-8f18-a40c95d49d4b" /> <br/><br/>
+**Components:** <br/> <br/>
+
+
 
 
 
